@@ -46,12 +46,12 @@
 					<h1>Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e venha se divertir!</h1>
 					<p>Crie sua conta rápido e fácil</p>
 					<div class="row">
-						<div class="col">
+						
 							<button type="button" class="btn btn-primary">Primary</button>
-						</div>
-						<div class="col">
+						
+						
 							<button type="button" class="btn btn-primary">Primary</button>
-						</div>
+						
 					</div>
 				</div>
 				<div class="col-md-6"></div>
