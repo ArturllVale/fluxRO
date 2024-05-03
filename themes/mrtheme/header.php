@@ -44,7 +44,7 @@
 	</div>
 	<?php endif; ?>
 
-    <div class="container">
+    <div class="mroverflow2">
 		<?php //include 'main/sidebar.php' ?>
 		<?php //include 'main/loginbox.php' ?>
 		<?php if (Flux::config('DebugMode') && @gethostbyname(Flux::config('ServerAddress')) == '127.0.0.1'): ?>
