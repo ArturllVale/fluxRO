@@ -1132,3 +1132,11 @@ textarea {
 .mrnumber {
 	color: #0f0;
 }
+
+.mrtitle {
+	font-weight: 400;
+}
+
+.mrsubtitle {
+	font-weight: 500;
+}
