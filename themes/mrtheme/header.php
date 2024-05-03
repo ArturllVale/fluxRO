@@ -1,40 +1,47 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="Lumen#0110">
 
-		<?php if (isset($metaRefresh)): ?>
-		<meta http-equiv="refresh" content="<?php echo $metaRefresh['seconds'] ?>; URL=<?php echo $metaRefresh['location'] ?>" />
-		<?php endif ?>
-		<title><?php echo Flux::config('SiteTitle'); if (isset($title)) echo ": $title" ?></title>
-        <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-		<link rel="stylesheet" href="<?php echo $this->themePath('css/flux.css') ?>" type="text/css" media="screen" title="" charset="utf-8" />
-		<link href="<?php echo $this->themePath('css/flux/unitip.css') ?>" rel="stylesheet" type="text/css" media="screen" title="" charset="utf-8" />
-		<?php if (Flux::config('EnableReCaptcha')): ?>
-			<script src='https://www.google.com/recaptcha/api.js'></script>
-		<?php endif ?>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-		<link href="<?php echo $this->themePath('css/sticky-footer-navbar.css') ?>" rel="stylesheet">
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Lumen#0110">
 
-    <!-- Fixed navbar -->
+	<?php if (isset($metaRefresh)): ?>
+	<meta http-equiv="refresh"
+		content="<?php echo $metaRefresh['seconds'] ?>; URL=<?php echo $metaRefresh['location'] ?>" />
+	<?php endif ?>
+	<title><?php echo Flux::config('SiteTitle'); if (isset($title)) echo ": $title" ?></title>
+	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+	<link rel="stylesheet" href="<?php echo $this->themePath('css/flux.css') ?>" type="text/css" media="screen" title=""
+		charset="utf-8" />
+	<link href="<?php echo $this->themePath('css/flux/unitip.css') ?>" rel="stylesheet" type="text/css" media="screen"
+		title="" charset="utf-8" />
+	<?php if (Flux::config('EnableReCaptcha')): ?>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<?php endif ?>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="<?php echo $this->themePath('css/sticky-footer-navbar.css') ?>" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Fixed navbar -->
 	<div class="container mrnavbarcontrol">
 		<?php include $this->themePath('main/navbar.php', true) ?>
 	</div>
-	
+
 	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/?module=main'): ?>
 	<div class="mroverflow">
 		<header class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e venha se divertir!</h1>
+					<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e venha
+						se divertir!</h1>
 					<p class="mrsubtitle">Crie sua conta rápido e fácil</p>
 					<button type="button" class="btn btn-primary mrbutton">Criar Agora!</button>
 				</div>
@@ -44,16 +51,17 @@
 	</div>
 	<?php endif; ?>
 
-    <div class="mroverflow2">
+	<div class="mroverflow2">
 		<?php //include 'main/sidebar.php' ?>
 		<?php //include 'main/loginbox.php' ?>
 		<?php if (Flux::config('DebugMode') && @gethostbyname(Flux::config('ServerAddress')) == '127.0.0.1'): ?>
-			<p class="notice">Please change your <strong>ServerAddress</strong> directive in your application config to your server's real address (e.g., myserver.com).</p>
+		<p class="notice">Please change your <strong>ServerAddress</strong> directive in your application config to your
+			server's real address (e.g., myserver.com).</p>
 		<?php endif ?>
 
 		<!-- Messages -->
 		<?php if ($message=$session->getMessage()): ?>
-			<p class="message"><?php echo htmlspecialchars($message) ?></p>
+		<p class="message"><?php echo htmlspecialchars($message) ?></p>
 		<?php endif ?>
 
 		<!-- Sub menu -->
