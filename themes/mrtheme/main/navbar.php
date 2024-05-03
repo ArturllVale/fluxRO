@@ -9,7 +9,7 @@
 				<?php if (!empty($menuItems)): ?>
 					<?php foreach ($menuItems as $menuCategory => $menus): ?>
 						<?php if (!empty($menus)): ?>
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown mrrounded">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 									<?php echo htmlspecialchars(Flux::message($menuCategory)) ?>
 								</a>
