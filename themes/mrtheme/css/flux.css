@@ -887,15 +887,15 @@ textarea {
 
 .generic-form {
 	padding: 10px;
-	background-color: #fff;
-	border: 1px solid #ddd;
+	background-color: #0f172a;
+	border: 1px solid #0f172a;
 	width: auto;
 }
 
 .generic-form-div {
 	padding: 10px;
-	background-color: #fff;
-	border: 1px solid #ddd;
+	background-color: #0f172a;
+	border: 1px solid #0f172a;
 	width: auto;
 }
 .generic-form-table th label {
