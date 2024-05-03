@@ -42,9 +42,6 @@
 			</div>
 		</header>
 	</div>
-	<div class="mroverflow2">
-	<?php include 'main/index.php' ?>
-	</div>
 	<?php endif; ?>
 
     <div class="container">
