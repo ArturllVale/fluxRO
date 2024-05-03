@@ -71,6 +71,10 @@
 				<label class="form-label"><?php echo htmlspecialchars(Flux::message('AccountBirthdateLabel')) ?></label>
                 <div><?php echo $this->dateField('birthdate', null, 0) ?></div>
             </div>
+			<div class="col-md-6 mb-3">
+				<h2>O que pode por aqui?</h2>
+				<p>Uma imagem?</p>
+			</div>
 
             <?php if (Flux::config('UseCaptcha')): ?>
                 <div class="col-md-12 mb-3">
