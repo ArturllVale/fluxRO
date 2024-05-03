@@ -1109,6 +1109,9 @@ textarea {
 	background-color: #fff !important;
     color: #0f172a !important;
     font-weight: 500 !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    margin-left: 10px;
 }
 
 .mrdestak:hover, .mrdestak:focus {
