@@ -1,7 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 <div class="container">
-	<div class="row">
+	<div class="row mrrow">
 		<div class="col-md-3">
 			<div class="card">
 				<img src="https://i.imgur.com/TFTQ1bG.jpeg" class="card-img-top" alt="...">

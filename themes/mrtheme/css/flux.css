@@ -1168,3 +1168,7 @@ textarea {
     padding-bottom: 6em;
     height: auto;
 }
+
+.mrrow {
+	margin-bottom: 1.4em;
+}
