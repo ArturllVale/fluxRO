@@ -1128,3 +1128,7 @@ textarea {
     padding-top: 6em;
     height: 100vh;
 }
+
+.mrnumber {
+	color: #0f0;
+}
