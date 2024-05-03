@@ -52,7 +52,7 @@
 		</header>
 	</div>
 	<div class="mroverflow2">
-	<?php //include 'main/index.php' ?>
+	<?php include 'main/index.php' ?>
 	</div>
 	<?php endif; ?>
 
