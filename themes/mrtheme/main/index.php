@@ -11,6 +11,9 @@
                     <?php foreach($news as $nrow): ?>
                         <div class="col-md-6">
                             <div class="card mb-4">
+                                <?php if($nrow->image): ?>
+                                    <img src="<?php echo $nrow->image ?>" class="card-img-top" alt="Imagem do post">
+                                <?php endif; ?>
                                 <div class="card-body">
                                     <h4 class="card-title"><?php echo $nrow->title ?></h4>
                                     <p class="card-text"><?php echo $nrow->body ?></p>
@@ -36,6 +39,9 @@
                         <?php $i++; if($i <= $newslimit): ?>
                             <div class="col-md-6">
                                 <div class="card mb-4">
+                                    <?php if($rssItem->image): ?>
+                                        <img src="<?php echo $rssItem->image ?>" class="card-img-top" alt="Imagem do post">
+                                    <?php endif; ?>
                                     <div class="card-body">
                                         <h4 class="card-title"><?php echo $rssItem->title ?></h4>
                                         <p class="card-text"><?php echo $rssItem->description ?></p>
@@ -64,9 +70,10 @@
         <p style="text-align: right"><strong><em><?php echo htmlspecialchars(Flux::message('MainPageThanks')) ?></em></strong></p>
     </div>
 <?php endif ?>
+
 </div>
 <div class="col-md-6">
-	
+
 </div>
 </div>
 </div>
