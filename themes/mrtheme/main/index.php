@@ -21,6 +21,8 @@
         <div class="col-md-6">
             <h2>FluxRO</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus dolor, explicabo est nisi, quos iste aliquam culpa accusamus minima expedita libero, vero in sequi eligendi eius illo distinctio ad.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus dolor, explicabo est nisi, quos iste aliquam culpa accusamus minima expedita libero, vero in sequi eligendi eius illo distinctio ad.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus dolor, explicabo est nisi, quos iste aliquam culpa accusamus minima expedita libero, vero in sequi eligendi eius illo distinctio ad.</p>
         </div>
     </div>
 </div>
