@@ -34,7 +34,9 @@
 	<body>
 
     <!-- Fixed navbar -->
-	<?php include $this->themePath('main/navbar.php', true) ?>
+	<div class="container">
+		<?php include $this->themePath('main/navbar.php', true) ?>
+	</div>
 
     <div class="container">
 		<?php //include 'main/sidebar.php' ?>
