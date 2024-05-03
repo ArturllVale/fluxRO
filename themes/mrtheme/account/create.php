@@ -58,26 +58,17 @@
                 <input type="password" name="password" id="register_password" class="form-control">
 				<label for="register_confirm_password" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountPassConfirmLabel')) ?></label>
                 <input type="password" name="confirm_password" id="register_confirm_password" class="form-control">
-            </div>
-
-            <div class="col-md-6 mb-3">
-                <label for="register_email_address" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountEmailLabel')) ?></label>
+				<label for="register_email_address" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountEmailLabel')) ?></label>
                 <input type="text" name="email_address" id="register_email_address" class="form-control" value="<?php echo htmlspecialchars($params->get('email_address') ?: '') ?>">
 				<label for="register_email_address2" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountEmailLabel2')) ?></label>
                 <input type="text" name="email_address2" id="register_email_address2" class="form-control" value="<?php echo htmlspecialchars($params->get('email_address2') ?: '') ?>">
-            </div>
-
-            <div class="col-md-6 mb-3">
-                <label class="form-label"><?php echo htmlspecialchars(Flux::message('AccountGenderLabel')) ?></label>
+				<label class="form-label"><?php echo htmlspecialchars(Flux::message('AccountGenderLabel')) ?></label>
                 <div>
                     <label class="form-check-label"><input type="radio" name="gender" id="register_gender_m" value="M"<?php if ($params->get('gender') === 'M') echo ' checked' ?>> <?php echo $this->genderText('M') ?></label>
                     <label class="form-check-label"><input type="radio" name="gender" id="register_gender_f" value="F"<?php if ($params->get('gender') === 'F') echo ' checked' ?>> <?php echo $this->genderText('F') ?></label>
                     <strong title="<?php echo htmlspecialchars(Flux::message('AccountCreateGenderInfo')) ?>">?</strong>
                 </div>
-            </div>
-
-            <div class="col-md-6 mb-3">
-                <label class="form-label"><?php echo htmlspecialchars(Flux::message('AccountBirthdateLabel')) ?></label>
+				<label class="form-label"><?php echo htmlspecialchars(Flux::message('AccountBirthdateLabel')) ?></label>
                 <div><?php echo $this->dateField('birthdate', null, 0) ?></div>
             </div>
 
