@@ -1,8 +1,8 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 <div class="container">
-	<div class="row mrrow">
-		<div class="col-md-3">
+	<div class="row">
+		<div class="col-md-3 mrrow">
 			<div class="card">
 				<img src="https://i.imgur.com/TFTQ1bG.jpeg" class="card-img-top" alt="...">
 				<div class="card-body">
@@ -11,7 +11,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 mrrow">
 			<div class="card">
 				<img src="https://i.imgur.com/TFTQ1bG.jpeg" class="card-img-top" alt="...">
 				<div class="card-body">
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 mrrow">
 			<h2>FluxRO</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus dolor, explicabo est nisi, quos
 				iste aliquam culpa accusamus minima expedita libero, vero in sequi eligendi eius illo distinctio ad.</p>
@@ -31,7 +31,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-3 mrrow">
 			<div class="card">
 				<img src="https://i.imgur.com/TFTQ1bG.jpeg" class="card-img-top" alt="...">
 				<div class="card-body">
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 mrrow">
 			<div class="card">
 				<img src="https://i.imgur.com/TFTQ1bG.jpeg" class="card-img-top" alt="...">
 				<div class="card-body">
