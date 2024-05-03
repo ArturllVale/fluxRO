@@ -1153,10 +1153,24 @@ textarea {
 	border-color: white !important;
 }
 
+.mrbutton2 {
+	border-radius: 40px !important;
+	background-color: white !important;
+	color: #0f172a !important;
+	font-weight: 600 !important;
+	border-color: white !important;
+}
+
 .mrbutton:hover, .mrbutton:focus {
 	background-color: #0f172a !important;
 	color: white !important;
 	border-color: #0f172a !important;
+}
+
+.mrbutton2:hover, .mrbutton2:focus {
+	background-color: #1e222c !important;
+	color: white !important;
+	border-color: #1e222c !important;
 }
 
 .mroverflow2 {

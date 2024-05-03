@@ -100,7 +100,7 @@
                     <?php printf(htmlspecialchars(Flux::message('AccountCreateInfo2')), '<a href="'.$this->url('service', 'tos').'">'.Flux::message('AccountCreateTerms').'</a>') ?>
                 </div>
                 <div>
-                    <button type="submit" class="btn btn-primary mrbutton"><strong><?php echo htmlspecialchars(Flux::message('AccountCreateButton')) ?></strong></button>
+                    <button type="submit" class="btn btn-primary mrbutton2"><strong><?php echo htmlspecialchars(Flux::message('AccountCreateButton')) ?></strong></button>
                 </div>
             </div>
         </div>
