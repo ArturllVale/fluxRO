@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-mr mrbordernav">
 	<div class="container-fluid d-flex justify-content-between">
-		<a class="navbar-brand" href="./"><img src="themes/mrtheme/img/logo.svg" alt="" srcset=""></a>
+		<a class="navbar-brand" href="./"><img src="themes/mrtheme/img/logo.png" alt="" srcset=""></a>
 		<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<?php $menuItems = $this->getMenuItems(); ?>
