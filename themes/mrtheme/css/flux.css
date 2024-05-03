@@ -1085,7 +1085,7 @@ textarea {
 }
 
 .mrnavbarcontrol {
-	margin-top: -46px;
+	margin-top: -38px;
 }
 
 .mrbordernav {
@@ -1123,7 +1123,7 @@ textarea {
 .mroverflow {
 	background-color: #c06cff;
     border-radius: 14px;
-    margin: -61px 10px 10px 10px;
+    margin: -70px 10px 10px 10px;
     padding-top: 6em;
     height: 100vh;
 }
