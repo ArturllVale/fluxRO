@@ -1,6 +1,6 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<div class="container-fluid">
 		<!-- <a class="navbar-brand" href="./"><?php echo Flux::config('SiteTitle'); ?></a> -->
 		<a class="navbar-brand" href="./">Nome do Site</a>
