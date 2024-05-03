@@ -1,6 +1,6 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark mrbordernav">
+<nav class="navbar navbar-expand-lg navbar-dark bg-mr mrbordernav">
 	<div class="container-fluid d-flex justify-content-between">
 		<a class="navbar-brand" href="./">Nome do Site</a>
 		<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
