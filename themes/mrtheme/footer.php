@@ -146,28 +146,36 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<script type="text/javascript">
 		// Função para navegar entre as páginas com animações
-		function navigateWithAnimation(url) {
-		    // Adiciona classe de saída para a página atual
-		    document.querySelector('.page').classList.add('transition-out');
-		
-		    // Após um pequeno atraso, carrega a nova página
-		    setTimeout(function() {
-		        window.location.href = url;
-		    }, 500); // Ajuste este tempo de acordo com a duração da animação
-		
-		    // Garante que a página atual é removida após a animação
-		    window.addEventListener('unload', function() {
-		        document.querySelector('.page').classList.remove('transition-out');
-		    });
-		}
-		
-		// Adiciona evento de clique aos links de navegação
-		document.querySelectorAll('a').forEach(function(link) {
-		    link.addEventListener('click', function(event) {
-		        event.preventDefault();
-		        navigateWithAnimation(link.getAttribute('href'));
-		    });
-		});
+function navigateWithAnimation(url) {
+    // Verifica se o menu dropdown está aberto
+    var dropdownMenu = document.querySelector('.dropdown-menu');
+    if (dropdownMenu && dropdownMenu.classList.contains('show')) {
+        // Se o menu dropdown estiver aberto, redireciona sem animação
+        window.location.href = url;
+    } else {
+        // Adiciona classe de saída para a página atual
+        document.querySelector('.page').classList.add('transition-out');
+        
+        // Após um pequeno atraso, carrega a nova página
+        setTimeout(function() {
+            window.location.href = url;
+        }, 500); // Ajuste este tempo de acordo com a duração da animação
+        
+        // Garante que a página atual é removida após a animação
+        window.addEventListener('unload', function() {
+            document.querySelector('.page').classList.remove('transition-out');
+        });
+    }
+}
+
+// Adiciona evento de clique aos links de navegação
+document.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        navigateWithAnimation(link.getAttribute('href'));
+    });
+});
+
 	</script>
 	</body>
 </html>
