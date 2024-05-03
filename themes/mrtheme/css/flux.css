@@ -1087,3 +1087,7 @@ textarea {
 	color: #ffba00;
 	font-style: italic;
 }
+
+.mrnavbarcontrol {
+	margin-top: 10px;
+}

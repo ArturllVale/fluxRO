@@ -34,7 +34,7 @@
 	<body>
 
     <!-- Fixed navbar -->
-	<div class="container">
+	<div class="container mrnavbarcontrol">
 		<?php include $this->themePath('main/navbar.php', true) ?>
 	</div>
 
