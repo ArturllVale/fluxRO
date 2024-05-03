@@ -1,13 +1,9 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mrbordernav">
-	<div class="container-fluid">
-		<!-- <a class="navbar-brand" href="./"><?php echo Flux::config('SiteTitle'); ?></a> -->
+	<div class="container-fluid d-flex justify-content-between">
 		<a class="navbar-brand" href="./">Nome do Site</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<?php $menuItems = $this->getMenuItems(); ?>
 				<?php if (!empty($menuItems)): ?>
@@ -40,6 +36,10 @@
 						</ul>
 					</li>
 				<?php endif ?>
+			</ul>
+		</div>
+		<div class="d-flex">
+			<ul class="navbar-nav">
 				<li class="nav-item"><a class="nav-link" href="#">Registrar</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Entrar</a></li>
 			</ul>
