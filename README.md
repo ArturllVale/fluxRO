@@ -7,7 +7,7 @@ FluxCP
 
 Flux Control Panel (FluxCP) for rAthena servers.
 
-Requirements
+Requirements testando
 ---------
 * PHP 5.2
 * PDO and PDO-MYSQL extensions for PHP5 (including PHP_MYSQL support)
