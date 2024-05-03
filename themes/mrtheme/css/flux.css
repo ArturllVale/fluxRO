@@ -1158,3 +1158,8 @@ textarea {
 	color: white !important;
 	border-color: #0f172a !important;
 }
+
+.mrline {
+	background-color: white;
+	height: 40px;
+}
