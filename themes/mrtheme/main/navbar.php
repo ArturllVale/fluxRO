@@ -25,7 +25,7 @@
 
 				<?php $adminMenuItems = $this->getAdminMenuItems(); ?>
 				<?php if (!empty($adminMenuItems) && Flux::config('AdminMenuNewStyle')): ?>
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown mrrounded">
 						<a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Admin Menu
 						</a>
@@ -40,8 +40,8 @@
 		</div>
 		<div class="d-flex">
 			<ul class="navbar-nav">
-				<li class="nav-item"><a class="nav-link" href="#">Registrar</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Entrar</a></li>
+				<li class="nav-item"><a class="nav-link mrrounded" href="#">Registrar</a></li>
+				<li class="nav-item"><a class="nav-link mrrounded" href="#">Entrar</a></li>
 			</ul>
 		</div>
 	</div>
