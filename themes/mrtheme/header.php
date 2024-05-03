@@ -37,6 +37,8 @@
 	<div class="container mrnavbarcontrol">
 		<?php include $this->themePath('main/navbar.php', true) ?>
 	</div>
+	
+	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/'): ?>
 	<div class="mroverflow">
 		<header class="container">
 			<div class="row">
@@ -48,6 +50,7 @@
 			</div>
 		</header>
 	</div>
+	<?php endif; ?>
 
     <div class="container">
 		<?php //include 'main/sidebar.php' ?>
