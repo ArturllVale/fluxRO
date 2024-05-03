@@ -1165,5 +1165,6 @@ textarea {
 	border-radius: 0px 0px 14px 14px;
     margin: 10px 10px 10px 10px;
     padding-top: 6em;
-    height: 700px;
+    padding-bottom: 6em;
+    height: auto;
 }
