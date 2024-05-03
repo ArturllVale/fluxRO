@@ -1172,3 +1172,7 @@ textarea {
 .mrrow {
 	margin-bottom: 1.4em;
 }
+
+.form-label {
+	margin-top: 5px;
+}
