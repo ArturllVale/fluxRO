@@ -1,7 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 <?php if(Flux::config('CMSNewsOnHomepage')): ?>
-	<h2><?php echo htmlspecialchars(sprintf(Flux::message('MainPageWelcome'), Flux::config('SiteTitle'))) ?></h2>
+	<!-- <h2><?php echo htmlspecialchars(sprintf(Flux::message('MainPageWelcome'), Flux::config('SiteTitle'))) ?></h2> -->
 
 	<?php if($newstype == '1'):?>
 		<?php if($news): ?>
