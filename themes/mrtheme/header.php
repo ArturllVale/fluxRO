@@ -39,7 +39,7 @@
 	</div>
 	
 	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/?module=main'): ?>
-	<div class="mroverflow">
+	<div class="mroverflow page">
 		<header class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -52,7 +52,7 @@
 	</div>
 	<?php endif; ?>
 
-    <div class="container">
+    <div class="container page">
 		<?php //include 'main/sidebar.php' ?>
 		<?php //include 'main/loginbox.php' ?>
 		<?php if (Flux::config('DebugMode') && @gethostbyname(Flux::config('ServerAddress')) == '127.0.0.1'): ?>
