@@ -51,7 +51,6 @@
 			</div>
 		</header>
 	</div>
-	<div class="container-fluid mrline"></div>
 	<div class="mroverflow2"></div>
 	<?php endif; ?>
 
