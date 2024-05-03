@@ -65,8 +65,10 @@
 		<?php endif ?>
 
 		<!-- Sub menu -->
+		<div class="container">
 		<?php include $this->themePath('main/submenu.php', true) ?>
-
+		</div>
+		
 		<!-- Page menu -->
 		<?php include $this->themePath('main/pagemenu.php', true) ?>
 
