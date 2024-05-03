@@ -1121,7 +1121,8 @@ textarea {
 }
 
 .mroverflow {
-	background-color: #c06cff;
+	background: rgb(96,95,245);
+	background: linear-gradient(128deg, rgba(96,95,245,1) 48%, rgba(207,147,103,1) 78%, rgba(252,185,8,1) 100%);
     border-radius: 14px;
     margin: -70px 10px 10px 10px;
     padding-top: 6em;
