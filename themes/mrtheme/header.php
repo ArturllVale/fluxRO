@@ -37,6 +37,17 @@
 	<div class="container mrnavbarcontrol">
 		<?php include $this->themePath('main/navbar.php', true) ?>
 	</div>
+	<div class="mroverflow">
+		<header class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>Esse é um Header</h1>
+					<p>Esse é um subtítulo</p>
+				</div>
+				<div class="col-md-6"></div>
+			</div>
+		</header>
+	</div>
 
     <div class="container">
 		<?php //include 'main/sidebar.php' ?>
