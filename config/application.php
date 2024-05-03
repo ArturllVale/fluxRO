@@ -3,14 +3,14 @@
 // the default, and should be changed as needed.
 return array(
 	'ServerAddress'				=> 'localhost',				// This value is the hostname:port under which Flux runs. (e.g., example.com or example.com:80)
-	'BaseURI'					=> 'fluxcp',						// The base URI is the base web root on which your application lies.
-	'InstallerPassword'			=> 'secretpassword',		// Installer/updater password.
+	'BaseURI'					=> '',						// The base URI is the base web root on which your application lies.
+	'InstallerPassword'			=> '32291143',		// Installer/updater password.
 	'RequireOwnership'			=> true,					// Require the executing user to be owner of the FLUX_ROOT/data/ directory tree? (Better for security)
 															// WARNING: This will be mostly IGNORED on non-POSIX-compliant OSes (e.g. Windows).
 	'DefaultLoginGroup'			=> null,
 	'DefaultCharMapServer'		=> null,
-	'DefaultLanguage'			=> 'en_us',					// Specify the default control panel language (see FLUX_ROOT/lang/ directory for available languages.)
-	'SiteTitle'					=> 'Flux Control Panel',	// This value is only used if the theme decides to use it.
+	'DefaultLanguage'			=> 'pt_br',					// Specify the default control panel language (see FLUX_ROOT/lang/ directory for available languages.)
+	'SiteTitle'					=> 'MundoRAG',	// This value is only used if the theme decides to use it.
 	'ThemeName'					=> array('default', 'bootstrap'), // Names of the themes you would like list for use in the footer. Themes are in FLUX_ROOT/themes.
 	'ScriptTimeLimit'			=> 0,						// Script execution time limit. Specifies (in seconds) how long a page should run before timing out. (0 means forever)
 	'MissingEmblemBMP'			=> 'empty.bmp',				//
@@ -57,7 +57,7 @@ return array(
 	'RequireEmailConfirm'		=> false,					// Require e-mail confirmation during registration.
 	'RequireChangeConfirm'		=> false,					// Require confirmation when changing e-mail addresses.
 	'EmailConfirmExpire'		=> 48,						// E-mail confirmations expire hours. Unconfirmed accounts will expire after this period of time.
-	'PincodeEnabled'			=> true,					// Whether or not the pincode system is enabled in your server. (Check your char_athena.conf file. Enabled by default.)
+	'PincodeEnabled'			=> false,					// Whether or not the pincode system is enabled in your server. (Check your char_athena.conf file. Enabled by default.)
 	'MailerFromAddress'			=> 'noreply@localhost',		// The e-mail address displayed in the From field.
 	'MailerFromName'			=> 'MailerName',			// The name displayed with the From e-mail address.
 	'MailerUseSMTP'				=> false,					// Whether or not to use a separate SMTP server for sending mail.
@@ -76,7 +76,7 @@ return array(
 	'GzipCompressionLevel'		=> 9,						// zlib compression level. (1~9)
 	'OutputCleanHTML'			=> true,					// Use this if you have Tidy installed to clean your HTML output when serving pages.
 	'ShowCopyright'				=> true,					// Whether or not to show the copyright footer.
-	'ShowRenderDetails'			=> true,					// Shows the "page rendered in X seconds" and "number of queries executed: X" in the default theme.
+	'ShowRenderDetails'			=> false,					// Shows the "page rendered in X seconds" and "number of queries executed: X" in the default theme.
 	'UseCleanUrls'				=> false,					// Set to true if you're running Apache and it supports mod_rewrite and .htaccess files.
 	'DebugMode'					=> false,					// Set to false to minimize technical details from being output by Flux. WARNING: DO NOT USE THIS OPTION ON A PUBLICALLY-ACCESSIBLE CP.
 	'UseCaptcha'				=> false,					// Use CAPTCHA image for account registration to prevent automated account creations. (Requires GD2/FreeType2)
@@ -93,7 +93,7 @@ return array(
 	'DisplayCashPoints'			=> false,					// Whether or not to display "Cash Points" instead of the player's "Credits" in the control panel.
 	'CreditExchangeRate'		=> 1.0,						// The rate at which credits are exchanged for dollars.
 	'MinDonationAmount'			=> 2.0,						// Minimum donation amount. (NOTE: Actual donations made that are less than this account won't be exchanged)
-	'DonationCurrency'			=> 'USD',					// Preferred donation currency. Only donations made in this currency will be processed for credit deposits.
+	'DonationCurrency'			=> 'BRL',					// Preferred donation currency. Only donations made in this currency will be processed for credit deposits.
 	'MoneyDecimalPlaces'		=> 2,						// (Visual) Number of decimal places to display in amount.
 	'MoneyThousandsSymbol'		=> ',',						// (Visual) Thousandths place separator (a period in European currencies).
 	'MoneyDecimalSymbol'		=> '.',						// (Visual) Decimal separator (a comma in European currencies).

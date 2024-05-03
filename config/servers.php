@@ -4,7 +4,7 @@ return array(
 	// specify multiple server groups (however they should share the same login
 	// server whilst they are allowed to have multiple char/map pairs).
 	array(
-		'ServerName'     => 'FluxRO',
+		'ServerName'     => 'MundoRAG',
 		// Global database configuration (excludes logs database configuration).
 		'DbConfig'       => array(
 			//'Socket'     => '/tmp/mysql.sock',
@@ -15,7 +15,7 @@ return array(
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'ragnarok',
-			'Password'   => 'ragnarok',
+			'Password'   => 'NNt8BYKGnSAfbR5n',
 			'Database'   => 'ragnarok',
 			'Persistent' => true,
 			'Timezone'   => null // Example: '+0:00' is UTC.
@@ -36,7 +36,7 @@ return array(
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'ragnarok',
-			'Password'   => 'ragnarok',
+			'Password'   => 'NNt8BYKGnSAfbR5n',
 			'Database'   => 'ragnarok',
 			'Persistent' => true,
 			'Timezone'   => null // Possible values is as described in the comment in DbConfig.
@@ -45,7 +45,7 @@ return array(
 		'WebDbConfig'    => array(
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'ragnarok',
-			'Password'   => 'ragnarok',
+			'Password'   => 'NNt8BYKGnSAfbR5n',
 			'Database'   => 'ragnarok',
 			'Persistent' => true
 		),
@@ -60,15 +60,15 @@ return array(
 		),
 		'CharMapServers' => array(
 			array(
-				'ServerName'      => 'FluxRO',
+				'ServerName'      => 'MundoRAG',
 				'Renewal'         => true,
 				'MaxCharSlots'    => 9,
 				'DateTimezone'    => null, // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
 				//'ResetDenyMaps'   => 'sec_pri', // Defaults to 'sec_pri'. This value can be an array of map names.
 				//'Database'        => 'ragnarok', // Defaults to DbConfig.Database
 				'ExpRates' => array(
-					'Base'        => 100, // Rate at which (base) exp is given
-					'Job'         => 100, // Rate at which job exp is given
+					'Base'        => 2500, // Rate at which (base) exp is given
+					'Job'         => 2500, // Rate at which job exp is given
 					'Mvp'         => 100  // MVP bonus exp rate
 				),
 				'DropRates' => array(
@@ -84,29 +84,29 @@ return array(
 					'Heal'        => 100,
 					'HealBoss'    => 100,
 					'HealMVP'     => 100,
-					'HealMin'     => 1,
+					'HealMin'     => 100,
 					'HealMax'     => 10000,
 					// The rate usable items (in the item tab other then healing items) are dropped
 					'Useable'     => 100,
 					'UseableBoss' => 100,
 					'UseableMVP'  => 100,
-					'UseableMin'  => 1,
+					'UseableMin'  => 100,
 					'UseableMax'  => 10000,
 					// The rate at which equipment is dropped
 					'Equip'       => 100,
 					'EquipBoss'   => 100,
 					'EquipMVP'    => 100,
-					'EquipMin'    => 1,
+					'EquipMin'    => 100,
 					'EquipMax'    => 10000,
 					// The rate at which cards are dropped
 					'Card'        => 100,
 					'CardBoss'    => 100,
 					'CardMVP'     => 100,
-					'CardMin'     => 1,
+					'CardMin'     => 100,
 					'CardMax'     => 10000,
 					// The rate adjustment for the MVP items that the MVP gets directly in their inventory
 					'MvpItem'     => 100,
-					'MvpItemMin'  => 1,
+					'MvpItemMin'  => 100,
 					'MvpItemMax'  => 10000,
 					// 0 - official order (Show message "Note: Only one MVP drop will be rewarded.") , 2 - all items
 					'MvpItemMode' => 0,
