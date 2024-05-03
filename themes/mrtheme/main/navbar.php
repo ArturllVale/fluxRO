@@ -40,8 +40,8 @@
 		</div>
 		<div class="d-flex">
 			<ul class="navbar-nav">
-				<li class="nav-item"><a class="nav-link mrrounded" href="#">Entrar</a></li>
-				<li class="nav-item"><a class="nav-link mrrounded mrdestak" href="#">Registrar</a></li>
+				<li class="nav-item"><a class="nav-link mrrounded" href="/?module=account&action=login">Entrar</a></li>
+				<li class="nav-item"><a class="nav-link mrrounded mrdestak" href="/?module=account&action=create">Registrar</a></li>
 			</ul>
 		</div>
 	</div>
