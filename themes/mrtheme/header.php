@@ -45,7 +45,7 @@
 				<div class="col-md-6">
 					<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e venha se divertir!</h1>
 					<p class="mrsubtitle">Crie sua conta rápido e fácil</p>
-					<button type="button" class="btn btn-primary">Criar Conta Agora!</button>
+					<button type="button" class="btn btn-primary mrbutton">Criar Agora!</button>
 				</div>
 				<div class="col-md-6"></div>
 			</div>
