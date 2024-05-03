@@ -54,25 +54,16 @@
             <div class="col-md-6 mb-3">
                 <label for="register_username" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountUsernameLabel')) ?></label>
                 <input type="text" name="username" id="register_username" class="form-control" value="<?php echo htmlspecialchars($params->get('username') ?: '') ?>">
-            </div>
-
-            <div class="col-md-6 mb-3">
-                <label for="register_password" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountPasswordLabel')) ?></label>
+				<label for="register_password" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountPasswordLabel')) ?></label>
                 <input type="password" name="password" id="register_password" class="form-control">
-            </div>
-
-            <div class="col-md-6 mb-3">
-                <label for="register_confirm_password" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountPassConfirmLabel')) ?></label>
+				<label for="register_confirm_password" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountPassConfirmLabel')) ?></label>
                 <input type="password" name="confirm_password" id="register_confirm_password" class="form-control">
             </div>
 
             <div class="col-md-6 mb-3">
                 <label for="register_email_address" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountEmailLabel')) ?></label>
                 <input type="text" name="email_address" id="register_email_address" class="form-control" value="<?php echo htmlspecialchars($params->get('email_address') ?: '') ?>">
-            </div>
-
-            <div class="col-md-6 mb-3">
-                <label for="register_email_address2" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountEmailLabel2')) ?></label>
+				<label for="register_email_address2" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountEmailLabel2')) ?></label>
                 <input type="text" name="email_address2" id="register_email_address2" class="form-control" value="<?php echo htmlspecialchars($params->get('email_address2') ?: '') ?>">
             </div>
 
