@@ -1160,11 +1160,10 @@ textarea {
 }
 
 .mroverflow2 {
-	height: 700px;
 	background-color: #0f172a;
 	color: white;
 	border-radius: 0px 0px 14px 14px;
-    margin: 10pxpx 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     padding-top: 6em;
     height: 700px;
 }
