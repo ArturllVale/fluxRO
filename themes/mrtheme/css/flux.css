@@ -1100,3 +1100,7 @@ textarea {
 .mrrounded {
 	border-radius: 40px !important;
 }
+
+.bg-dark {
+	background-color: #0F172A !important;
+}
