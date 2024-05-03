@@ -1,7 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 <div class="container">		
-		
+	<div class="row">
 <?php if(Flux::config('CMSNewsOnHomepage')): ?>
     <div class="container">
         <?php if($newstype == '1'): ?>
@@ -63,5 +63,5 @@
         <p style="text-align: right"><strong><em><?php echo htmlspecialchars(Flux::message('MainPageThanks')) ?></em></strong></p>
     </div>
 <?php endif ?>
-
+</div>
 </div>
