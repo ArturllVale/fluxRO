@@ -38,7 +38,7 @@
 		<?php include $this->themePath('main/navbar.php', true) ?>
 	</div>
 	
-	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/'): ?>
+	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/?module=main'): ?>
 	<div class="mroverflow">
 		<header class="container">
 			<div class="row">
