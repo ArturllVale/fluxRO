@@ -166,10 +166,6 @@ label:hover {
 	text-shadow: #4a5259 1pt 1pt;
 }
 
-#admin_sidebar td.menuitem a span {
-	/*display: block;*/
-}
-
 #sidebar td.sidebar-left, #sidebar td.sidebar-right {
 	background-color: #e6f0fa;
 }
@@ -1089,5 +1085,9 @@ textarea {
 }
 
 .mrnavbarcontrol {
-	margin-top: 10px;
+	margin-top: -46px;
+}
+
+.mrbordernav {
+	border-radius: 40px;
 }
