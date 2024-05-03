@@ -9,8 +9,8 @@
 				<?php if (!empty($menuItems)): ?>
 					<?php foreach ($menuItems as $menuCategory => $menus): ?>
 						<?php if (!empty($menus)): ?>
-							<li class="nav-item dropdown mrrounded">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle mrrounded" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 									<?php echo htmlspecialchars(Flux::message($menuCategory)) ?>
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -25,8 +25,8 @@
 
 				<?php $adminMenuItems = $this->getAdminMenuItems(); ?>
 				<?php if (!empty($adminMenuItems) && Flux::config('AdminMenuNewStyle')): ?>
-					<li class="nav-item dropdown mrrounded">
-						<a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle mrrounded" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Admin Menu
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="adminDropdown">
