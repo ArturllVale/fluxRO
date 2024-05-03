@@ -1104,3 +1104,15 @@ textarea {
 .bg-mr {
 	background-color: #0F172A !important;
 }
+
+.mrdestak {
+	background-color: #fff;
+    color: #0f172a;
+    font-weight: 500;
+}
+
+.mrdestak:hover, .mrdestak:focus {
+	background-color: #9228f5;
+    color: #ffffff;
+    font-weight: 500;
+}

@@ -41,7 +41,7 @@
 		<div class="d-flex">
 			<ul class="navbar-nav">
 				<li class="nav-item"><a class="nav-link mrrounded" href="#">Registrar</a></li>
-				<li class="nav-item"><a class="nav-link mrrounded" href="#">Entrar</a></li>
+				<li class="nav-item"><a class="nav-link mrrounded mrdestak" href="#">Entrar</a></li>
 			</ul>
 		</div>
 	</div>
