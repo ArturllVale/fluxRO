@@ -36,7 +36,8 @@
 	</div>
 
 	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/?module=main'): ?>
-	<div class="mroverflow">
+		<div class="wrapper">
+		<div class="mroverflow">
 		<header class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -48,6 +49,7 @@
 				<div class="col-md-6"></div>
 			</div>
 		</header>
+	</div>
 	</div>
 	<?php endif; ?>
 
