@@ -1137,6 +1137,7 @@ textarea {
 
 .mrtitle {
 	font-weight: 600;
+	max-width: 490px;
     padding-top: 90px;
 	color: white;
 }
@@ -1220,7 +1221,7 @@ textarea {
     align-items: center;
     /* flex-wrap: wrap; */
     max-width: 1000px;
-    margin-left: -3em;
+    margin-left: -8em;
   }
   
   .heading {
