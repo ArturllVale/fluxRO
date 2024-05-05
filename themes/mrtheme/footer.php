@@ -1,7 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 	</div>
-	<div id="footer">
+	<!-- <div id="footer">
 		<div class="container">
 			<p class="text-muted">
 				<?php if (Flux::config('ShowCopyright')): ?>
@@ -36,7 +36,7 @@
 				<input type="hidden" name="preferred_theme" value="" />
 			</form>
 		</div>
-	</div>
+	</div> -->
 
 
 		<!--[if lt IE 9]>
