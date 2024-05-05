@@ -41,46 +41,49 @@
 			<header class="container">
 				<div class="row">
 					<div class="col-md-6">
+					
 					<div class="content">
-					  <a class="card" href="#!">
-					    <div class="front" style="background-image: url(//source.unsplash.com/300x401)">
+					  <a class="card-flip" href="#!">
+					    <div class="front-flip" style="background-image: url(//source.unsplash.com/300x401)">
 					      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
 					    </div>
-					    <div class="back">
+					    <div class="back-flip">
 					      <div>
 					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
 					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button">Click Here</button>
+					        <button class="button-flip">Click Here</button>
 					      </div>
 					    </div>
 					  </a>
-					  <a class="card" href="#!">
-					    <div class="front" style="background-image: url(//source.unsplash.com/300x402)">
+					  <a class="card-flip" href="#!">
+					    <div class="front-flip" style="background-image: url(//source.unsplash.com/300x402)">
 					      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
 					    </div>
-					    <div class="back">
+					    <div class="back-flip">
 					      <div>
 					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
 					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button">Click Here</button>
+					        <button class="button-flip">Click Here</button>
 					      </div>
 					    </div>
 					  </a>
-					  <a class="card" href="#!">
-					    <div class="front" style="background-image: url(//source.unsplash.com/300x403)">
+					  <a class="card-flip" href="#!">
+					    <div class="front-flip" style="background-image: url(//source.unsplash.com/300x403)">
 					      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
 					    </div>
-					    <div class="back">
+					    <div class="back-flip">
 					      <div>
 					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
 					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button">Click Here</button>
+					        <button class="button-flip">Click Here</button>
 					      </div>
 					    </div>
 					  </a>
 					</div>
+						
 
 					</div>	
+
 					<div class="col-md-6 center">
 						<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e
 							venha

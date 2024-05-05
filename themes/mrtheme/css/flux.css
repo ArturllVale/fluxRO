@@ -1251,7 +1251,7 @@ textarea {
 	margin-bottom: 3rem;
   }
   
-  .card {
+  .card-flip {
 	color: inherit;
 	cursor: pointer;
 	width: calc(33% - 2rem);
@@ -1263,18 +1263,18 @@ textarea {
 	position: relative;
   }
   @media screen and (max-width: 800px) {
-	.card {
+	.card-flip {
 	  width: calc(50% - 2rem);
 	}
   }
   @media screen and (max-width: 500px) {
-	.card {
+	.card-flip {
 	  width: 100%;
 	}
   }
   
-  .front,
-  .back {
+  .front-flip,
+  .back-flip {
 	display: flex;
 	border-radius: 6px;
 	background-position: center;
@@ -1291,7 +1291,7 @@ textarea {
 	transition: ease-in-out 600ms;
   }
   
-  .front {
+  .front-flip {
 	background-size: cover;
 	padding: 2rem;
 	font-size: 1.618rem;
@@ -1300,7 +1300,7 @@ textarea {
 	overflow: hidden;
 	font-family: Poppins, sans-serif;
   }
-  .front:before {
+  .front-flip:before {
 	position: absolute;
 	display: block;
 	content: "";
@@ -1312,43 +1312,43 @@ textarea {
 	opacity: 0.25;
 	z-index: -1;
   }
-  .card:hover .front {
+  .card-flip:hover .front-flip {
 	transform: rotateY(180deg);
   }
-  .card:nth-child(even):hover .front {
+  .card-flip:nth-child(even):hover .front-flip {
 	transform: rotateY(-180deg);
   }
   
-  .back {
+  .back-flip {
 	background: #fff;
 	transform: rotateY(-180deg);
 	padding: 0 2em;
   }
-  .back .button {
+  .back-flip .button-flip {
 	background: linear-gradient(135deg, #1a9be6, #1a57e6);
   }
-  .back .button:before {
+  .back-flip .button-flip:before {
 	box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
 	background-color: rgba(26, 87, 230, 0.25);
   }
-  .card:hover .back {
+  .card-flip:hover .back-flip {
 	transform: rotateY(0deg);
   }
-  .card:nth-child(even) .back {
+  .card-flip:nth-child(even) .back-flip {
 	transform: rotateY(180deg);
   }
-  .card:nth-child(even) .back .button {
+  .card-flip:nth-child(even) .back-flip .button-flip {
 	background: linear-gradient(135deg, #e61a80, #e61a3c);
   }
-  .card:nth-child(even) .back .button:before {
+  .card-flip:nth-child(even) .back-flip .button-flip:before {
 	box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
 	background-color: rgba(230, 26, 60, 0.25);
   }
-  .card:nth-child(even):hover .back {
+  .card-flip:nth-child(even):hover .back-flip {
 	transform: rotateY(0deg);
   }
   
-  .button {
+  .button-flip {
 	transform: translateZ(40px);
 	cursor: pointer;
 	-webkit-backface-visibility: hidden;
@@ -1363,7 +1363,7 @@ textarea {
 	transform-style: preserve-3d;
 	transition: 300ms ease;
   }
-  .button:before {
+  .button-flip:before {
 	transition: 300ms ease;
 	position: absolute;
 	display: block;
@@ -1377,16 +1377,17 @@ textarea {
 	left: 10px;
 	top: 16px;
   }
-  .button:hover {
+  .button-flip:hover {
 	transform: translateZ(55px);
   }
-  .button:hover:before {
+  .button-flip:hover:before {
 	transform: translateZ(-55px);
   }
-  .button:active {
+  .button-flip:active {
 	transform: translateZ(20px);
   }
-  .button:active:before {
+  .button-flip:active:before {
 	transform: translateZ(-20px);
 	top: 12px;
   }
+  
