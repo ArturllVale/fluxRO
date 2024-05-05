@@ -42,6 +42,16 @@
 				<div class="row">
 					<div class="col-md-6">
 					
+					<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e
+							venha
+							se divertir!</h1>
+						<p class="mrsubtitle">Crie sua conta rápido e fácil</p>
+						<button type="button" class="btn btn-primary mrbutton">Criar Agora!</button>
+
+					</div>	
+
+					<div class="col-md-6 center">
+
 					<div class="content">
 					  <a class="card-flip" href="#!">
 					    <div class="front-flip" style="background-image: url(//source.unsplash.com/300x401)">
@@ -81,15 +91,6 @@
 					  </a>
 					</div>
 						
-
-					</div>	
-
-					<div class="col-md-6 center">
-						<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e
-							venha
-							se divertir!</h1>
-						<p class="mrsubtitle">Crie sua conta rápido e fácil</p>
-						<button type="button" class="btn btn-primary mrbutton">Criar Agora!</button>
 					</div>
 				</div>
 			</header>
