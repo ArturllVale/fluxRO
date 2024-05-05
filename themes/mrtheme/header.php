@@ -40,7 +40,7 @@
 		<div class="mroverflow">
 			<header class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-6">
 					<div class="content">
   <h1 class="heading">Card Flip</h1>
   <p class="description">Hover over a card to flip it.</p>
@@ -83,14 +83,13 @@
 </div>
 
 					</div>	
-					<div class="col-md-4 center">
+					<div class="col-md-6 center">
 						<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e
 							venha
 							se divertir!</h1>
 						<p class="mrsubtitle">Crie sua conta rápido e fácil</p>
 						<button type="button" class="btn btn-primary mrbutton">Criar Agora!</button>
 					</div>
-					<div class="col-md-4"></div>
 				</div>
 			</header>
 		</div>
