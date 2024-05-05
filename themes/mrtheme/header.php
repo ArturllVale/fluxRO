@@ -39,8 +39,8 @@
 	<div class="wrapper">
 		<div class="mroverflow">
 			<header class="container">
-				<div class="row">
-					<div class="col-md-6 mrspaco">
+				<div class="row mrspaco">
+					<div class="col-md-6">
 					
 					<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e
 							venha
