@@ -40,10 +40,14 @@
 		<div class="mroverflow">
 			<header class="container">
 				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
 					<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e venha
 						se divertir!</h1>
 					<p class="mrsubtitle">Crie sua conta rápido e fácil</p>
 					<button type="button" class="btn btn-primary mrbutton">Criar Agora!</button>
+					</div>
+					<div class="col-md-4"></div>
 				</div>
 			</header>
 		</div>
