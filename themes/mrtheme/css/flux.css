@@ -1215,11 +1215,12 @@ textarea {
   
   .content {
 	display: flex;
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	max-width: 1000px;
+    margin: 0 auto;
+    justify-content: left;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    max-width: 1000px;
+    margin-left: -3em;
   }
   
   .heading {
@@ -1253,14 +1254,14 @@ textarea {
   
   .card-flip {
 	color: inherit;
-	cursor: pointer;
-	width: calc(33% - 2rem);
-	min-width: calc(33% - 2rem);
-	height: 400px;
-	min-height: 400px;
-	perspective: 1000px;
-	margin: 1rem;
-	position: relative;
+    cursor: pointer;
+    width: calc(33% - 2rem);
+    min-width: 240px;
+    height: 400px;
+    min-height: 400px;
+    perspective: 1000px;
+    margin: 5px;
+    position: relative;
   }
   @media screen and (max-width: 800px) {
 	.card-flip {
