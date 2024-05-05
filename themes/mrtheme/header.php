@@ -36,20 +36,17 @@
 	</div>
 
 	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/?module=main'): ?>
-		<div class="wrapper">
+	<div class="wrapper">
 		<div class="mroverflow">
-		<header class="container">
-			<div class="row">
-				<div class="col-md-6">
+			<header class="container">
+				<div class="row">
 					<h1 class="mrtitle">Junte-se a mais de <span class="mrnumber">1.248</span> Jogadores online e venha
 						se divertir!</h1>
 					<p class="mrsubtitle">Crie sua conta rápido e fácil</p>
 					<button type="button" class="btn btn-primary mrbutton">Criar Agora!</button>
 				</div>
-				<div class="col-md-6"></div>
-			</div>
-		</header>
-	</div>
+			</header>
+		</div>
 	</div>
 	<?php endif; ?>
 
@@ -68,9 +65,9 @@
 
 		<!-- Sub menu -->
 		<div class="container">
-		<?php include $this->themePath('main/submenu.php', true) ?>
+			<?php include $this->themePath('main/submenu.php', true) ?>
 		</div>
-		
+
 		<!-- Page menu -->
 		<?php include $this->themePath('main/pagemenu.php', true) ?>
 

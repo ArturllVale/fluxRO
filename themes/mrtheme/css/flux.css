@@ -1128,7 +1128,7 @@ textarea {
 	border-radius: 14px 14px 0px 0px;
     margin: -80px 10px 10px 10px;
     padding-top: 6em;
-    height: 700px;
+    height: 100vh;
 }
 
 .mrnumber {
