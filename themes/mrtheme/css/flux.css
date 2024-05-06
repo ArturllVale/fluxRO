@@ -1549,7 +1549,7 @@ textarea {
 /* Medida pra celular */
   @media screen and (max-width: 600px) {
 	.navbar-nav {
-		flex-direction: row;
+		flex-direction: row !important;
 	}
 	.mrentrar {
 		padding-left: 10px;
