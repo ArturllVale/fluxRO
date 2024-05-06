@@ -1398,3 +1398,8 @@ textarea {
 	margin-top: 6em !important;
   }
   
+  .dropdown-menu {
+	margin-top: 11px !important;
+    border-radius: 0px 0px 6px 6px !important;
+    border-color: #0f172a !important;
+  }
