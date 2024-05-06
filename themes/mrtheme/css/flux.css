@@ -1402,4 +1402,9 @@ textarea {
 	margin-top: 11px !important;
     border-radius: 0px 0px 6px 6px !important;
     border-color: #0f172a !important;
+	background-color: #0f172a !important;
+  }
+
+  .dropdown-menu, li {
+	color: white !important;
   }
