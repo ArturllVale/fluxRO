@@ -38,7 +38,13 @@
 	<?php if ($_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/?module=main'): ?>
 	<div class="wrapper">
 		<div class="mroverflow">
-			<header class="container">
+			<header class="container container2">
+			<div class="sky">
+				<div class="stars"></div>
+				<div class="stars1"></div>
+				<div class="stars2"></div>
+				<div class="shooting-stars"></div>
+			</div>
 				<div class="row mrspaco">
 					<div class="col-md-6">
 					
