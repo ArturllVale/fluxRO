@@ -1516,6 +1516,16 @@ textarea {
 	}
   }
 
+  /* Estilo para os ícones */
+  .social-icon {
+	font-size: 30px;
+	margin-right: 10px;
+	transition: color 0.3s ease;
+  }
+  .social-icon:hover {
+	color: #3b5998; /* Cor azul do Facebook */
+  }
+
   @media screen and (max-width: 1366px) {
 	.mrtitle {
 		padding-top: 0px;
