@@ -1263,6 +1263,7 @@ textarea {
     perspective: 1000px;
     margin: 5px;
     position: relative;
+	opacity: 0.9;
   }
   @media screen and (max-width: 800px) {
 	.card-flip {
