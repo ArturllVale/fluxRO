@@ -67,7 +67,7 @@
 					    <div class="back-flip">
 					      <div>
 					        <p>Crie uma conta rápido e fácil sem burocracia, e com segurança!</p>
-					        <button class="button-flip">Nova Conta</button>
+					        <button class="button-flip" href="/?module=account&action=create">Nova Conta</button>
 					      </div>
 					    </div>
 					  </a>
