@@ -1546,3 +1546,13 @@ textarea {
 		margin-top: 4em !important;
 	}
   }
+/* Medida pra celular */
+  @media screen and (max-width: 600px) {
+	.navbar-nav {
+		flex-direction: row;
+	}
+	.mrentrar {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+  }
