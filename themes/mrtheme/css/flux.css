@@ -1535,7 +1535,7 @@ textarea {
   .social-icon.discord:hover {
 	color: #7289da; /* Azul do Discord */
   }
-
+/* Medida pra Notebook */
   @media screen and (max-width: 1366px) {
 	.mrtitle {
 		padding-top: 0px;
@@ -1556,6 +1556,6 @@ textarea {
     	padding-right: 10px !important;
 	}
 	.mroverflow {
-		height: auto;
+		height: auto !important;
 	}
   }
