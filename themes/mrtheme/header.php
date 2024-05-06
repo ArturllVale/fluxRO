@@ -55,7 +55,6 @@
 					<div class="content">
 					  <a class="card-flip" href="#!">
 					    <div class="front-flip" style="background-image: url(https://i.imgur.com/ReFbw9v.png)">
-					      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
 					    </div>
 					    <div class="back-flip">
 					      <div>
@@ -67,7 +66,6 @@
 					  </a>
 					  <a class="card-flip" href="#!">
 					    <div class="front-flip" style="background-image: url(https://i.imgur.com/eyU13S2.png)">
-					      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
 					    </div>
 					    <div class="back-flip">
 					      <div>
@@ -79,7 +77,6 @@
 					  </a>
 					  <a class="card-flip" href="#!">
 					    <div class="front-flip" style="background-image: url(https://i.imgur.com/wfwwANs.png)">
-					      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
 					    </div>
 					    <div class="back-flip">
 					      <div>
