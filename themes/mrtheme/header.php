@@ -61,13 +61,13 @@
 					<div class="col-md-6 center">
 
 					<div class="content">
-					  <a class="card-flip" href="#!">
+					  <a class="card-flip" href="/?module=account&action=create">
 					    <div class="front-flip" style="background-image: url(https://i.imgur.com/ReFbw9v.png)">
 					    </div>
 					    <div class="back-flip">
 					      <div>
 					        <p>Crie uma conta rápido e fácil sem burocracia, e com segurança!</p>
-					        <button class="button-flip" href="/?module=account&action=create">Nova Conta</button>
+					        <button class="button-flip">Nova Conta</button>
 					      </div>
 					    </div>
 					  </a>
