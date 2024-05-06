@@ -1405,6 +1405,6 @@ textarea {
 	background-color: #0f172a !important;
   }
 
-  .dropdown-menu, li {
+  .dropdown-item {
 	color: white !important;
   }
