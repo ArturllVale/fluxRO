@@ -1558,4 +1558,7 @@ textarea {
 	.mroverflow {
 		height: auto !important;
 	}
+	.card-flip {
+		content-visibility: hidden;
+	}
   }
