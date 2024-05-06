@@ -1,22 +1,22 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
 	</div>
-<footer class="container py-4">
-	<div class="row">
-		<!-- Ícones das redes sociais -->
-		<div class="col">
-			<a href="#" class="text-decoration-none"><i class="fab fa-facebook social-icon"></i></a>
-			<a href="#" class="text-decoration-none"><i class="fab fa-instagram social-icon"></i></a>
-			<a href="#" class="text-decoration-none"><i class="fab fa-tiktok social-icon"></i></a>
-			<a href="#" class="text-decoration-none"><i class="fab fa-discord social-icon"></i></a>
-		</div>
-	</div>
-	<div class="row mt-3">
-		<!-- Texto do rodapé -->
-		<div class="col">
-			Feito com <i class="fas fa-heart text-danger"></i> e Bootstrap 5 | MundoRag 2024-2025 &copy;
-		</div>
-	</div>
+<footer class="container py-4 text-center">
+  <div class="row">
+    <!-- Ícones das redes sociais -->
+    <div class="col">
+      <a href="#" class="text-decoration-none"><i class="fab fa-facebook social-icon facebook"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fab fa-instagram social-icon instagram"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fab fa-tiktok social-icon tiktok"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fab fa-discord social-icon discord"></i></a>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <!-- Texto do rodapé -->
+    <div class="col">
+      Feito com <i class="fas fa-heart text-danger"></i> e Bootstrap 5 | MundoRag 2024-2025 &copy;
+    </div>
+  </div>
 </footer>
 	<!-- <div id="footer">
 		<div class="container">

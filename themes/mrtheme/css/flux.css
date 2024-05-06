@@ -1520,10 +1520,20 @@ textarea {
   .social-icon {
 	font-size: 30px;
 	margin-right: 10px;
+	color: #888; /* Cinza */
 	transition: color 0.3s ease;
   }
-  .social-icon:hover {
-	color: #3b5998; /* Cor azul do Facebook */
+  .social-icon.facebook:hover {
+	color: #3b5998; /* Azul do Facebook */
+  }
+  .social-icon.instagram:hover {
+	color: #e4405f; /* Rosa do Instagram */
+  }
+  .social-icon.tiktok:hover {
+	color: #69c9d0; /* Azul do TikTok */
+  }
+  .social-icon.discord:hover {
+	color: #7289da; /* Azul do Discord */
   }
 
   @media screen and (max-width: 1366px) {
