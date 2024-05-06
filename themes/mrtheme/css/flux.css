@@ -1188,6 +1188,7 @@ textarea {
     padding-top: 6em;
     padding-bottom: 6em;
     height: auto;
+	z-index: 11;
 }
 
 .mrrow {
