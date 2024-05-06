@@ -1418,18 +1418,6 @@ textarea {
   }
 
   /* 8888888888888888888888888888888 */
-
-  
-  .container2 .text {
-	color: #FFF;
-	position: absolute;
-	top: 50%;
-	right: 50%;
-	margin: -10px -75px 0 0;
-	font-size: 20px;
-	font-family: sans-serif;
-	font-weight: bold;
-  }
   
   .stars {
 	z-index: 10;
