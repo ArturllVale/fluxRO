@@ -1408,3 +1408,7 @@ textarea {
   .dropdown-item {
 	color: white !important;
   }
+
+  .dropdown-item:hover {
+	color: #0f172a !important;
+  }
