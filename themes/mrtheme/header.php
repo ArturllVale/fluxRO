@@ -66,9 +66,8 @@
 					    </div>
 					    <div class="back-flip">
 					      <div>
-					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button-flip">Click Here</button>
+					        <p>Crie uma conta rápido e fácil sem burocracia, e com segurança!</p>
+					        <button class="button-flip">Nova Conta</button>
 					      </div>
 					    </div>
 					  </a>
@@ -77,9 +76,8 @@
 					    </div>
 					    <div class="back-flip">
 					      <div>
-					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button-flip">Click Here</button>
+					        <p>Baixe o jogo completo em diversos servidores de Download, escolha o que melhor lhe agradar.</p>
+					        <button class="button-flip">Downloads</button>
 					      </div>
 					    </div>
 					  </a>
@@ -88,9 +86,8 @@
 					    </div>
 					    <div class="back-flip">
 					      <div>
-					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button-flip">Click Here</button>
+					        <p>Converse, busque informações, troque idéias e faça novos amigos!</p>
+					        <button class="button-flip">Discord</button>
 					      </div>
 					    </div>
 					  </a>

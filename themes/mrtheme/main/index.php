@@ -48,4 +48,12 @@
 			</div>
 		</div>
 	</div>
+	<!-- Estatisticas do Servidor -->
+	<div class="row">
+		
+	</div>
+	<!-- Rank PvP e Rank MvP -->
+	<div class="row">
+
+	</div>
 </div>
