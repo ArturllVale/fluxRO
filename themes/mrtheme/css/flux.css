@@ -1515,3 +1515,14 @@ textarea {
 	  height: 800px;
 	}
   }
+
+  @media screen and (max-width: 1366px) {
+	.mrtitle {
+		padding-top: 0px;
+		max-width: 460px;
+		font-size: 37px;	
+	}
+	.mrspaco {
+		margin-top: 4em !important;
+	}
+  }
