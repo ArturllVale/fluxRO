@@ -1560,4 +1560,5 @@ textarea {
 	}
 	.card-flip {
 		content-visibility: hidden;
+		position: absolute;
 	}
