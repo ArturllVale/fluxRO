@@ -1516,3 +1516,50 @@ textarea {
 	  height: 800px;
 	}
   }
+
+  /* Estilo para os ícones */
+  .social-icon {
+	font-size: 30px;
+	margin-right: 10px;
+	color: #888; /* Cinza */
+	transition: color 0.3s ease;
+  }
+  .social-icon.facebook:hover {
+	color: #3b5998; /* Azul do Facebook */
+  }
+  .social-icon.instagram:hover {
+	color: #e4405f; /* Rosa do Instagram */
+  }
+  .social-icon.tiktok:hover {
+	color: #69c9d0; /* Azul do TikTok */
+  }
+  .social-icon.discord:hover {
+	color: #7289da; /* Azul do Discord */
+  }
+/* Medida pra Notebook */
+  @media screen and (max-width: 1366px) {
+	.mrtitle {
+		padding-top: 0px;
+		max-width: 460px;
+		font-size: 37px;	
+	}
+	.mrspaco {
+		margin-top: 4em !important;
+	}
+  }
+/* Medida pra celular */
+  @media screen and (max-width: 600px) {
+	.navbar-nav {
+		flex-direction: row !important;
+	}
+	.mrentrar {
+		padding-left: 10px !important;
+    	padding-right: 10px !important;
+	}
+	.mroverflow {
+		height: auto !important;
+	}
+	.card-flip {
+		content-visibility: hidden;
+	}
+  }

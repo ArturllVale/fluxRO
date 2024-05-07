@@ -26,8 +26,6 @@
 				iste aliquam culpa accusamus minima expedita libero, vero in sequi eligendi eius illo distinctio ad.</p>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus dolor, explicabo est nisi, quos
 				iste aliquam culpa accusamus minima expedita libero, vero in sequi eligendi eius illo distinctio ad.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus dolor, explicabo est nisi, quos
-				iste aliquam culpa accusamus minima expedita libero, vero in sequi eligendi eius illo distinctio ad.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -49,5 +47,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<!-- Estatisticas do Servidor -->
+	<div class="row">
+		
+	</div>
+	<!-- Rank PvP e Rank MvP -->
+	<div class="row">
+
 	</div>
 </div>

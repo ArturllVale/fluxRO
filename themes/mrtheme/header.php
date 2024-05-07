@@ -25,6 +25,8 @@
 	<?php endif ?>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 	<link href="<?php echo $this->themePath('css/sticky-footer-navbar.css') ?>" rel="stylesheet">
 </head>
 
@@ -59,14 +61,13 @@
 					<div class="col-md-6 center">
 
 					<div class="content">
-					  <a class="card-flip" href="#!">
+					  <a class="card-flip" href="/?module=account&action=create">
 					    <div class="front-flip" style="background-image: url(https://i.imgur.com/ReFbw9v.png)">
 					    </div>
 					    <div class="back-flip">
 					      <div>
-					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button-flip">Click Here</button>
+					        <p>Crie uma conta rápido e fácil sem burocracia, e com segurança!</p>
+					        <button class="button-flip">Nova Conta</button>
 					      </div>
 					    </div>
 					  </a>
@@ -75,9 +76,8 @@
 					    </div>
 					    <div class="back-flip">
 					      <div>
-					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button-flip">Click Here</button>
+					        <p>Baixe o jogo completo em diversos servidores de Download, escolha o que melhor lhe agradar.</p>
+					        <button class="button-flip">Downloads</button>
 					      </div>
 					    </div>
 					  </a>
@@ -86,9 +86,8 @@
 					    </div>
 					    <div class="back-flip">
 					      <div>
-					        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-					        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-					        <button class="button-flip">Click Here</button>
+					        <p>Converse, busque informações, troque idéias e faça novos amigos!</p>
+					        <button class="button-flip">Discord</button>
 					      </div>
 					    </div>
 					  </a>
