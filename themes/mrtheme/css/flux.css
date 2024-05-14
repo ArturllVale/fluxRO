@@ -1620,7 +1620,7 @@ textarea {
 	border-radius: 0 4px 4px 0;
   }
 
-  #breadcrumb li:last-child .active {
+	.active:last-child {
 	padding-right: 15px;
 	-moz-border-radius: 0 4px 4px 0;
 	-webkit-border-radius: 0;
