@@ -1566,7 +1566,7 @@ textarea {
 
   }
 
-  #breadcrumb {
+#breadcrumb {
     list-style: none;
     display: inline-block;
 }
@@ -1590,41 +1590,16 @@ textarea {
     padding: 0 10px 0 5px;
     text-align: center;
     margin-right: 23px;
+    border-radius: 4px;
 }
 
 #breadcrumb li:nth-child(even) a {
     background-color: #2980b9;
 }
 
-#breadcrumb li:nth-child(even) a:before {
-    border-color: #2980b9;
-    border-left-color: transparent;
-}
-
-#breadcrumb li:nth-child(even) a:after {
-    border-left-color: #2980b9;
-}
-
-#breadcrumb li:first-child a {
-    padding-left: 15px;
-    -moz-border-radius: 4px 0 0 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px 0 0 4px;
-}
-
-#breadcrumb li:first-child a:before {
-    border: none;
-}
-
-#breadcrumb li:last-child a {
-    padding-right: 15px;
-    -moz-border-radius: 0 4px 4px 0;
-    -webkit-border-radius: 0;
-    border-radius: 0 4px 4px 0;
-}
-
-#breadcrumb li:last-child a:after {
-    border: none;
+#breadcrumb li a:hover,
+#breadcrumb li.active a {
+    background-color: #1abc9c;
 }
 
 #breadcrumb li a:before,
@@ -1647,11 +1622,6 @@ textarea {
     left: 100%;
     border-color: transparent;
     border-left-color: #3498db;
-}
-
-#breadcrumb li a:hover,
-#breadcrumb li.active a {
-    background-color: #1abc9c;
 }
 
 #breadcrumb li a:hover:before,
@@ -1678,15 +1648,3 @@ textarea {
     border-left-color: #16a085;
 }
 
-#breadcrumb li a:active {
-    background-color: #16a085;
-}
-
-#breadcrumb li a:active:before {
-    border-color: #16a085;
-    border-left-color: transparent;
-}
-
-#breadcrumb li a:active:after {
-    border-left-color: #16a085;
-}
