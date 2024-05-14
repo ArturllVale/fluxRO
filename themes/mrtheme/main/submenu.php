@@ -13,12 +13,12 @@
                 <?php 
                     $isActive = $params->get('module') == $menuItem['module'] && $params->get('action') == $menuItem['action']; 
                 ?>
-                <li class="<?php echo $isActive ? 'active' : ''; ?>" aria-current="<?php echo $isActive ? 'page' : ''; ?>">
-                    <?php if (!$isActive): ?>
+                <li>
+                   
                         <a href="<?php echo $this->url($menuItem['module'], $menuItem['action']); ?>">
                             <?php echo htmlspecialchars($menuItem['name']); ?>
                         </a>
-                    <?php else: ?>
+                    
                         <?php echo htmlspecialchars($menuItem['name']); ?>
                     <?php endif; ?>
                 </li>
