@@ -1573,6 +1573,11 @@ textarea {
   #breadcrumb .fa-solid {
 	font-size: 14px;
   }
+
+  .fa-solid {
+	line-height: 20px;
+  }
+
   #breadcrumb li {
 	float: left;
   }
