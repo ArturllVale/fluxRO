@@ -184,5 +184,5 @@
 </table>
 <?php echo $paginator->getHTML() ?>
 <?php else: ?>
-<p>No characters found. <a href="javascript:history.go(-1)">Go back</a>.</p>
+<p>Nenhum personagem ainda <a href="javascript:history.go(-1)">Go back</a>.</p>
 <?php endif ?>
