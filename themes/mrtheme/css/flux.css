@@ -1666,14 +1666,14 @@ textarea {
   #breadcrumb li a:hover:after {
 	border-left-color: #1abc9c;
   }
-  #breadcrumb li a:active {
+  .active {
 	background-color: #16a085;
 	line-height: 40px;
   }
-  #breadcrumb li a:active:before {
+  .active:active:before {
 	border-color: #16a085;
 	border-left-color: transparent;
   }
-  #breadcrumb li a:active:after {
+  .active:active:after {
 	border-left-color: #16a085;
   }  
