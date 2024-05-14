@@ -1616,7 +1616,7 @@ textarea {
   #breadcrumb li:last-child a:after {
 	border: none;
   }
-  #breadcrumb li a:before, #breadcrumb li a:after {
+  #breadcrumb li a:before, #breadcrumb li a:after, .active:after, .active:before {
 	content: "";
 	position: absolute;
 	top: 0;
