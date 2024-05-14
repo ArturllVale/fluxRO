@@ -1647,6 +1647,17 @@ textarea {
   #breadcrumb li a:active {
 	background-color: #16a085;
   }
+  .active {
+	background-color: #16a085;
+  }
+  .active::before {
+	border-color: #16a085;
+	border-left-color: transparent;
+  }
+  .active::after {
+	border-left-color: #16a085;
+  }
+
   #breadcrumb li a:active:before {
 	border-color: #16a085;
 	border-left-color: transparent;
