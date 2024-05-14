@@ -1619,6 +1619,15 @@ textarea {
 	-webkit-border-radius: 0;
 	border-radius: 0 4px 4px 0;
   }
+
+  #breadcrumb li:last-child .active {
+	padding-right: 15px;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0;
+	border-radius: 0 4px 4px 0;
+  }
+
+
   #breadcrumb li:last-child a:after {
 	border: none;
   }
