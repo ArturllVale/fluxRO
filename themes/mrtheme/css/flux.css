@@ -1119,7 +1119,7 @@ textarea {
 }
 
 .mrdestak:hover, .mrdestak:focus {
-	background-color: #599080 !important;
+	background-color: #1abc9c !important;
     color: #ffffff !important;
     font-weight: 500 !important;
 }
