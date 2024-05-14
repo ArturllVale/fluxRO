@@ -1652,7 +1652,7 @@ textarea {
   }
   .active:active:before {
 	border-color: #16a085;
-	border-left-color: transparent;
+	
   }
   .active:active:after {
 	border-left-color: #16a085;
