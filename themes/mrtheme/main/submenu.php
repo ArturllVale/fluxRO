@@ -13,7 +13,7 @@
                 <?php 
                     $isActive = $params->get('module') == $menuItem['module'] && $params->get('action') == $menuItem['action']; 
                 ?>
-                <li class="breadcrumb-item <?php echo $isActive ? 'active' : ''; ?>" aria-current="<?php echo $isActive ? 'page' : ''; ?>">
+                <li class="<?php echo $isActive ? 'active' : ''; ?>" aria-current="<?php echo $isActive ? 'page' : ''; ?>">
                     <?php if (!$isActive): ?>
                         <a href="<?php echo $this->url($menuItem['module'], $menuItem['action']); ?>">
                             <?php echo htmlspecialchars($menuItem['name']); ?>
