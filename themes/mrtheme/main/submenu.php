@@ -11,7 +11,7 @@
         <?php foreach ($subMenuItems as $index => $menuItem): ?>
             <?php 
                 $isActive = $params->get('module') == $menuItem['module'] && $params->get('action') == $menuItem['action']; 
-                $class = $isActive ? 'active' : '';
+                $class = $isActive ? '' : '';
             ?>
             <li class="<?php echo $class; ?>">
                 <?php if (!$isActive): ?>
