@@ -1625,7 +1625,11 @@ textarea {
 	width: 0;
 	height: 0;
   }
-  #breadcrumb li a:before, #breadcrumb li a:active {
+  #breadcrumb li a:before {
+	left: -20px;
+	border-left-color: transparent;
+  }
+  #breadcrumb li a:active:before {
 	left: -20px;
 	border-left-color: transparent;
   }
