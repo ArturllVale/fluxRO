@@ -1640,11 +1640,18 @@ textarea {
 	left: -20px;
 	border-left-color: transparent;
   }
-  #breadcrumb li a:after, .active:after {
+  #breadcrumb li a:after {
 	left: 100%;
 	border-color: transparent;
 	border-left-color: #3498db;
   }
+
+  .active:after {
+	left: 100%;
+	border-color: transparent;
+	border-left-color: #16A085;
+  }
+
   #breadcrumb li a:hover {
 	background-color: #1abc9c;
   }
