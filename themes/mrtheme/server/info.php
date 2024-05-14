@@ -1,7 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
             <h2><?php echo htmlspecialchars(Flux::message('ServerInfoHeading')) ?></h2>
             <p><?php echo htmlspecialchars(Flux::message('ServerInfoText')) ?></p>
 
