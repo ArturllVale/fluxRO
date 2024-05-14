@@ -1650,7 +1650,7 @@ textarea {
 	content: "";
 	position: absolute;
 	top: 0;
-	border: 0 solid #16A085;
+	border: 0 solid #1abc9c;
 	border-width: 20px 10px;
 	width: 0;
 	height: 0;
@@ -1669,7 +1669,7 @@ textarea {
   .active:after {
 	left: 100%;
 	border-color: transparent;
-	border-left-color: #16A085;
+	border-left-color: #1abc9c;
   }
 
   #breadcrumb li a:hover {
@@ -1683,15 +1683,15 @@ textarea {
 	border-left-color: #1abc9c;
   }
   .active {
-	background-color: #16a085;
+	background-color: #1abc9c;
 	line-height: 40px;
 	padding-right: 24px;
   }
   .active:active:before {
-	border-color: #16a085;
+	border-color: #1abc9c;
 	left: -20px;
 	
   }
   .active:active:after {
-	border-left-color: #16a085;
+	border-left-color: #1abc9c;
   }  
