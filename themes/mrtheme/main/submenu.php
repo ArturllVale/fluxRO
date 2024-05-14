@@ -6,23 +6,21 @@
 ?>
 
 <?php if (!empty($subMenuItems)): ?>
-    <nav aria-label="breadcrumb">
-        <ul id="breadcrumb">
-            <li><a href="<?php echo $this->url('index', 'index'); ?>">Home</a></li>
-            <?php foreach ($subMenuItems as $index => $menuItem): ?>
-                <?php 
-                    $isActive = $params->get('module') == $menuItem['module'] && $params->get('action') == $menuItem['action']; 
-                ?>
-                <li>
-                    <?php if (!$isActive): ?>
-                        <a href="<?php echo $this->url($menuItem['module'], $menuItem['action']); ?>">
-                            <?php echo htmlspecialchars($menuItem['name']); ?>
-                        </a>
-                    <?php else: ?>
+    <ul id="breadcrumb" class="breadcrumb">
+        <li><a href="<?php echo $this->url('index', 'index'); ?>"><span class="icon icon-home"></span></a></li>
+        <?php foreach ($subMenuItems as $index => $menuItem): ?>
+            <?php 
+                $isActive = $params->get('module') == $menuItem['module'] && $params->get('action') == $menuItem['action']; 
+            ?>
+            <li>
+                <?php if (!$isActive): ?>
+                    <a href="<?php echo $this->url($menuItem['module'], $menuItem['action']); ?>">
                         <?php echo htmlspecialchars($menuItem['name']); ?>
-                    <?php endif; ?>
-                </li>
-            <?php endforeach; ?>
-		</ul>
-    </nav>
+                    </a>
+                <?php else: ?>
+                    <?php echo htmlspecialchars($menuItem['name']); ?>
+                <?php endif; ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
 <?php endif; ?>
