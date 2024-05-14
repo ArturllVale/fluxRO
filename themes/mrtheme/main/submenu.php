@@ -7,7 +7,7 @@
 
 <?php if (!empty($subMenuItems)): ?>
     <ul id="breadcrumb" class="breadcrumb">
-        <li><a href="<?php echo $this->url('index', 'index'); ?>"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="<?php echo $this->url('main', 'main'); ?>"><i class="fa-solid fa-house"></i></a></li>
         <?php foreach ($subMenuItems as $index => $menuItem): ?>
             <?php 
                 $isActive = $params->get('module') == $menuItem['module'] && $params->get('action') == $menuItem['action']; 
