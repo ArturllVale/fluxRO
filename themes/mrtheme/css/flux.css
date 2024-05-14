@@ -1571,7 +1571,7 @@ textarea {
 	display: inline-block;
   }
   #breadcrumb .fa-solid {
-	font-size: 14px;
+	font-size: 18px;
   }
 
   .fa-solid {
@@ -1608,6 +1608,7 @@ textarea {
 	-moz-border-radius: 4px 0 0 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px 0 0 4px;
+	align-content: center;
   }
   #breadcrumb li:first-child a:before {
 	border: none;
