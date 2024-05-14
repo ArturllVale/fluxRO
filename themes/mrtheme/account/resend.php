@@ -9,7 +9,7 @@
                         <p class="text-danger"><?php echo htmlspecialchars($errorMessage) ?></p>
                     <?php endif ?>
                     <p><?php echo htmlspecialchars(Flux::message('ResendInfo')) ?></p>
-                    <form action="<?php echo $this->urlWithQs ?>" method="post" class="generic-form">
+                    <form action="<?php echo $this->urlWithQs ?>" method="post" class="generic-form2">
                         <div class="mb-3">
                             <?php if (count($serverNames) > 1): ?>
                                 <label for="login" class="form-label"><?php echo htmlspecialchars(Flux::message('ResendServerLabel')) ?></label>
