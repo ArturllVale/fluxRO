@@ -887,6 +887,13 @@ textarea {
 
 .generic-form {
 	padding: 10px;
+	background-color: #0f172a;
+	border: 1px solid #0f172a;
+	width: auto;
+}
+
+.generic-form2 {
+	padding: 10px;
 	background-color: #ffffff;
 	border: 1px solid #ffffff;
 	width: auto;
