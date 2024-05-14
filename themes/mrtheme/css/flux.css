@@ -1638,7 +1638,7 @@ textarea {
   #breadcrumb li:last-child a:after {
 	border: none;
   }
-  #breadcrumb li a:before, #breadcrumb li a:after, .active:before, .active:after {
+  #breadcrumb li a:before, #breadcrumb li a:after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1648,11 +1648,11 @@ textarea {
 	height: 0;
   }
 
-  #breadcrumb li a:before, .active:before {
+  #breadcrumb li a:before {
 	left: -20px;
 	border-left-color: transparent;
   }
-  #breadcrumb li a:after .active:after {
+  #breadcrumb li a:after {
 	left: 100%;
 	border-color: transparent;
 	border-left-color: #3498db;
