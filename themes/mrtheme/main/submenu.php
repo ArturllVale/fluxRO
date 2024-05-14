@@ -7,13 +7,13 @@
 
 <?php if (!empty($subMenuItems)): ?>
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?php echo $this->url('index', 'index'); ?>">Home</a></li>
+        <ul id="breadcrumb">
+            <li><a href="<?php echo $this->url('index', 'index'); ?>">Home</a></li>
             <?php foreach ($subMenuItems as $index => $menuItem): ?>
                 <?php 
                     $isActive = $params->get('module') == $menuItem['module'] && $params->get('action') == $menuItem['action']; 
                 ?>
-                <li class="breadcrumb-item <?php echo $isActive ? 'active' : ''; ?>" aria-current="<?php echo $isActive ? 'page' : ''; ?>">
+                <li>
                     <?php if (!$isActive): ?>
                         <a href="<?php echo $this->url($menuItem['module'], $menuItem['action']); ?>">
                             <?php echo htmlspecialchars($menuItem['name']); ?>
@@ -23,6 +23,6 @@
                     <?php endif; ?>
                 </li>
             <?php endforeach; ?>
-        </ol>
+		</ul>
     </nav>
 <?php endif; ?>
