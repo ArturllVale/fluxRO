@@ -1668,6 +1668,7 @@ textarea {
   }
   #breadcrumb li a:active {
 	background-color: #16a085;
+	line-height: 40px;
   }
   #breadcrumb li a:active:before {
 	border-color: #16a085;
