@@ -1616,7 +1616,7 @@ textarea {
   #breadcrumb li:last-child a:after {
 	border: none;
   }
-  #breadcrumb li a:before, #breadcrumb li a:after, .active:after, .active:before {
+  #breadcrumb li a:before, #breadcrumb li a:after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1626,11 +1626,21 @@ textarea {
 	height: 0;
   }
 
-  #breadcrumb li a:before {
+  .active:after, .active:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	border: 0 solid #16A085;
+	border-width: 20px 10px;
+	width: 0;
+	height: 0;
+  }
+
+  #breadcrumb li a:before, .active:before {
 	left: -20px;
 	border-left-color: transparent;
   }
-  #breadcrumb li a:after {
+  #breadcrumb li a:after, .active:after {
 	left: 100%;
 	border-color: transparent;
 	border-left-color: #3498db;
