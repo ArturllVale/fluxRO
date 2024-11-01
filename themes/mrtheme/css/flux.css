@@ -1,6 +1,7 @@
 /*********************************************
 	 ** Stylesheet file for default Flux theme. **
 	 *********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .loginbox-admin-menu {
     padding-top: 5px;
@@ -1202,6 +1203,7 @@ textarea {
 }
 
 .mrtitle {
+		font-family: "Grenze Gotisch", serif;
     font-weight: 600;
     max-width: 490px;
     padding-top: 90px;
