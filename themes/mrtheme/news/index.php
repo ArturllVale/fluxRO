@@ -2,7 +2,7 @@
 if (!defined('FLUX_ROOT')) exit;
 ?>
 <div class="container">
-<h2><?php echo htmlspecialchars(Flux::message('CMSNewsHeader')) ?></h2>
+<h2>Anúncios</h2>
 <?php if($newstype == '1'):?>
 	<?php if($news): ?>
 	<div class="newsDiv">
@@ -12,7 +12,7 @@ if (!defined('FLUX_ROOT')) exit;
 				<span class="newsDate"><small>por <?php echo $nrow->author ?> em <?php echo date(Flux::config('DateFormat'),strtotime($nrow->created))?></small></span>
 				<p><?php echo $nrow->body ?></p>
 				<?php if($nrow->created != $nrow->modified && Flux::config('CMSDisplayModifiedBy')):?>
-					<small><?php echo htmlspecialchars(Flux::message('CMSModifiedLabel')) ?> : <?php echo date('m-d-y',strtotime($nrow->modified))?></small>
+					<small><?php echo htmlspecialchars(Flux::message('CMSModifiedLabel')) ?> : <?php echo date('d-m-y',strtotime($nrow->modified))?></small>
 				<?php endif; ?>
 				<?php if($nrow->link): ?>
 					<a class="news_link" href="<?php echo $nrow->link ?>"><small><?php echo htmlspecialchars(Flux::message('CMSNewsLink')) ?></small></a>
