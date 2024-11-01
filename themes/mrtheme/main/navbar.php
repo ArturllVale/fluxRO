@@ -45,7 +45,7 @@
 				<li class="nav-item"><a class="nav-link mrrounded mrdestak" href="/?module=account&action=create">Registrar</a></li>
 				<?php endif; ?>
 				<?php if (!empty($adminMenuItems) && Flux::config('AdminMenuNewStyle')): ?>
-				<li class="nav-item"><a class="nav-link mrrounded mrsair" href="/?module=account&action=logout">Sair</a></li>
+				<li class="nav-item"><a class="nav-link mrrounded mrsair" href="/?module=account&action=logout">Desconectar</a></li>
 				<?php endif; ?>
 			</ul>
 		</div>
