@@ -1399,9 +1399,7 @@ body {
     transform: rotateY(-180deg);
     padding: 0 2em;
 }
-.back-flip .button-flip {
-    background: linear-gradient(135deg, #1a9be6, #1a57e6);
-}
+
 .back-flip .button-flip:before {
     box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
     background-color: rgba(26, 87, 230, 0.25);
