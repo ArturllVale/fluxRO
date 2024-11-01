@@ -67,7 +67,7 @@
 					    <div class="back-flip">
 					      <div>
 					        <p>Crie uma conta rápido e fácil sem burocracia, e com segurança!</p>
-					        <button class="button-flip">Nova Conta</button>
+					        <button class="button-flip cnova">Nova Conta</button>
 					      </div>
 					    </div>
 					  </a>
@@ -87,7 +87,7 @@
 					    <div class="back-flip">
 					      <div>
 					        <p>Interaja, busque informações, troque idéias e faça novos amigos!</p>
-					        <button class="button-flip">Discord</button>
+					        <button class="button-flip cdiscord">Discord</button>
 					      </div>
 					    </div>
 					  </a>
