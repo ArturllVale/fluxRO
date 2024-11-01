@@ -1,7 +1,7 @@
 <?php 
 if (!defined('FLUX_ROOT')) exit;
 ?>
-<div class="container">
+<div class="container center">
 <h2>Anúncios</h2>
 <widgetbot
   server="1067843290197667940"
