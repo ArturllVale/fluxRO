@@ -267,7 +267,7 @@ return array(
 			// 'ServiceDeskLabel'	=> array('module' => 'servicedesk'),
 			'LogoutTitle'		=> array('module' => 'account', 'action' => 'logout'),
 		),
-		'DonationsLabel'		array('exturl' => 'https://www.google.com.br'),
+		'DonationsLabel'		=> array('exturl' => 'https://www.google.com.br'),
 		'InformationLabel'	=> array(
 			'ServerInfoLabel'	=> array('module' => 'server', 'action' => 'info'),
 			'ServerStatusLabel'	=> array('module' => 'server', 'action' => 'status'),
