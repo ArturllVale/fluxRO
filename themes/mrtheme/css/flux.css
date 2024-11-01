@@ -1211,8 +1211,9 @@ textarea {
 }
 
 .mrsubtitle {
-	font-family: Roboto;
+		font-family: "Roboto", serif;
     font-weight: 400;
+		font-style: normal;
     font-size: 22px;
     color: white;
 }
