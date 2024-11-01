@@ -79,7 +79,7 @@ input[type="text"],
 input[type="password"],
 input[type="file"],
 textarea {
-    font-family: "Lucida Grande", "Lucida Sans", Verdana, Tahoma, sans-serif;
+		font-family: "Roboto", serif;
     padding: 4px;
     font-size: 10pt;
     color: #444;
@@ -232,7 +232,7 @@ label:hover {
 .fs-path {
     display: inline-block;
     padding: 2px;
-    font-family: Monaco, "Lucida Console", "Bitsteam Vera Sans Mono", monospace;
+    font-family: "Roboto", serif;
     font-size: 8pt;
     background-color: #fff;
     border: 1px solid #eee;
@@ -431,7 +431,7 @@ label:hover {
 
 .raw-txn-log {
     padding: 10px;
-    font-family: "Monaco", "Lucida Console", "Courier New", monospace;
+    font-family: "Roboto", serif;
     background-color: #fff;
     border: 1px solid #ddd;
     width: 96%;
@@ -1279,7 +1279,7 @@ html {
     line-height: 1.5;
     font-weight: 300;
     color: #333;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Roboto", serif;
 }
 
 body {
