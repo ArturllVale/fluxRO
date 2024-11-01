@@ -1211,6 +1211,7 @@ textarea {
 }
 
 .mrsubtitle {
+	font-family: Roboto;
     font-weight: 400;
     font-size: 22px;
     color: white;
@@ -2563,7 +2564,7 @@ body {
     .mrtitle {
         padding-top: 0px;
         max-width: 460px;
-        font-size: 37px;
+        font-size: 46px;
     }
     .mrspaco {
         margin-top: 4em !important;
