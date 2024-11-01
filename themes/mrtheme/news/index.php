@@ -3,7 +3,14 @@ if (!defined('FLUX_ROOT')) exit;
 ?>
 <div class="container">
 <h2>Anúncios</h2>
-<?php if($newstype == '1'):?>
+<widgetbot
+  server="1067843290197667940"
+  channel="1067877789442781234"
+  width="800"
+  height="600"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+<!-- <?php if($newstype == '1'):?>
 	<?php if($news): ?>
 	<div class="newsDiv">
 		<?php foreach($news as $nrow):?>
@@ -25,7 +32,7 @@ if (!defined('FLUX_ROOT')) exit;
 		<p>
 			<?php echo htmlspecialchars(Flux::message('CMSNewsEmpty')) ?><br/><br/>
 		</p>
-	<?php endif ?>
+	<?php endif ?> -->
 
 
 
