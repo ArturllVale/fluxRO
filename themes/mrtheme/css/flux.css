@@ -1169,6 +1169,22 @@ textarea {
     font-weight: 500 !important;
 }
 
+.mrsair {
+	background-color: #fff !important;
+	color: #0f172a !important;
+	font-weight: 500 !important;
+	padding-left: 16px !important;
+	padding-right: 16px !important;
+	margin-left: 10px;
+}
+
+.mrsair:hover,
+.mrsair:focus {
+	background-color: #f15c5c !important;
+	color: #ffffff !important;
+	font-weight: 500 !important;
+}
+
 .mroverflow {
     /*background: rgb(96,95,245);
 	background: linear-gradient(128deg, rgba(96,95,245,1) 0%, rgba(123,90,252,1) 30%, rgba(135,88,255,1) 70%, rgba(139,91,246,1) 71%, rgba(207,147,103,1) 87%, rgba(252,185,8,1) 100%);
