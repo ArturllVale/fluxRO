@@ -16,3 +16,9 @@ app.post('/webhook', (req, res) => {
 });
 
 app.listen(3000, () => console.log('Server running on port 3000'));
+
+/*  pm2 start server.js --name meuServidor
+    para rodar esse script automaticamente
+    lembrando que ele precisa do: 
+    npm install -g pm2
+ */
