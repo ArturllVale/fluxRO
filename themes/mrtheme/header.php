@@ -71,7 +71,7 @@
 					      </div>
 					    </div>
 					  </a>
-					  <a class="card-flip" href="#!">
+					  <a class="card-flip" href="/?module=pages&action=content&path=downloads">
 					    <div class="front-flip" style="background-image: url(https://i.imgur.com/eyU13S2.png)">
 					    </div>
 					    <div class="back-flip">
@@ -81,7 +81,7 @@
 					      </div>
 					    </div>
 					  </a>
-					  <a class="card-flip" href="#!">
+					  <a class="card-flip" href="#">
 					    <div class="front-flip" style="background-image: url(https://i.imgur.com/wfwwANs.png)">
 					    </div>
 					    <div class="back-flip">
