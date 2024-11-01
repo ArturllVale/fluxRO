@@ -6,7 +6,7 @@ if (!defined('FLUX_ROOT')) exit;
 <widgetbot
   server="1067843290197667940"
   channel="1067877789442781234"
-  width="auto"
+  width="100%"
   height="800"
 ></widgetbot>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
