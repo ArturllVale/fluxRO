@@ -793,7 +793,7 @@ return array(
 	'DownloadsLabel'     => 'Downloads',
 	'RulesLabel'     => 'Rules',
 	'ContactUsLabel'     => 'Contact Us',
-	'PurchaseLabel'     => 'Purchase',
+	'PurchaseLabel'     => 'Comprar Cash',
 	'DonateLabel'     => 'Donate',
 	'MapStaticsLabel'     => 'Map Statics',
 	'ItemDatabaseLabel'     => 'Item Database',
