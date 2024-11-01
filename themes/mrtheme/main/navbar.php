@@ -40,7 +40,9 @@
 		</div>
 		<div class="d-flex">
 			<ul class="navbar-nav">
+				<?php if (empty($adminMenuItems) || !Flux::config('AdminMenuNewStyle')): ?>
 				<li class="nav-item"><a class="nav-link mrrounded mrentrar" href="/?module=account&action=login">Entrar</a></li>
+				<?php endif; ?>
 				<li class="nav-item"><a class="nav-link mrrounded mrdestak" href="/?module=account&action=create">Registrar</a></li>
 			</ul>
 		</div>
