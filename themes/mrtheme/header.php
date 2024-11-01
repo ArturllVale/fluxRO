@@ -86,7 +86,7 @@
 					    </div>
 					    <div class="back-flip">
 					      <div>
-					        <p>Converse, busque informações, troque idéias e faça novos amigos!</p>
+					        <p>Interaja, busque informações, troque idéias e faça novos amigos!</p>
 					        <button class="button-flip">Discord</button>
 					      </div>
 					    </div>
