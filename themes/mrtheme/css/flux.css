@@ -2725,10 +2725,10 @@ body {
     margin-bottom: 0.1rem !important;
 }
 
-.back-flip .button-flip .cnova {
+.cnova {
 	background: linear-gradient(135deg, #5b628a, #262A3F) !important;
 }
 
-.back-flip .button-flip .cdiscord {
+.cdiscord {
 	background: linear-gradient(135deg, #6bdbc5, #1abc9c) !important;
 }
