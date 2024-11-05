@@ -454,6 +454,7 @@ function decode(query) {
 function encodeString(string) {
   var index = strings.length;
   strings[index] = string.slice(1, -1)
+    .replace(/\\/g, "\\\\") // Escapa barras invertidas
     .replace(UNESCAPE, "$1")
     .replace(SINGLE_QUOTES, "\\'");
   return "'" + index + "'";
