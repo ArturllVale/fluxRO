@@ -2736,3 +2736,7 @@ body {
 .cdiscord {
 	background: linear-gradient(135deg, #6bdbc5, #1abc9c) !important;
 }
+
+.mt-5 {
+    margin-top: -13rem !important;
+}
