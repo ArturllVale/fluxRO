@@ -23,7 +23,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="login_password" class="form-label"><?php echo htmlspecialchars(Flux::message('AccountPasswordLabel')) ?></label>
-                            <input type="password" name="password" id="login_password" class="form-control">
+                            <input type="password" name="password" id="login_password" class="form-control" autocomplete="current-password">
                         </div>
                         <?php if (count($serverNames) > 1): ?>
                             <div class="mb-3">
