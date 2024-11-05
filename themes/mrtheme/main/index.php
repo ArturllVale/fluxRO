@@ -1,6 +1,6 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 
-<div class="container">
+<div class="container mr-espaco">
 	<div class="row">
 		<div class="col-md-3 mrrow">
 			<div class="card">

@@ -1253,9 +1253,8 @@ textarea {
     color: white;
     border-radius: 0px 0px 14px 14px;
     margin: 10px 10px 10px 10px;
-    padding-top: 6em;
+    padding-top: 1em;
     padding-bottom: 6em;
-    height: auto;
     position: relative;
     z-index: 11;
 }
@@ -2745,4 +2744,8 @@ body {
 
 .text-cent {
     text-align: -webkit-center;
+}
+
+.mr-espaco {
+    padding-top: 5em;
 }
