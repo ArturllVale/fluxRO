@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <img src="/themes/mrtheme/img/classes-overall.png" alt="" style="opacity: 0.5;">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-cent">
             <div class="card mt-custom">
                 <div class="card-body">
                     <h2 class="card-title"><?php echo htmlspecialchars(Flux::message('LoginHeading')) ?></h2>
