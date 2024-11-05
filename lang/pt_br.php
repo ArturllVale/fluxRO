@@ -799,7 +799,7 @@ return array(
 	'ItemDatabaseLabel'     => 'Item Database',
 	'MobDatabaseLabel'     => 'Mob Database',
 	'RateUsOnRMSLabel'     => 'Rate us on RMS!',
-	'AccountEmailLabel2'     => 'Confirm E-mail Address',
+	'AccountEmailLabel2'     => 'Confirmar Endereço de E-mail',
 	'InvalidEmailconf'     => 'E-mail addresses do not match.',
 	'InvalidVIPTime'     => 'Invalid VIP Time.',
 	'VIPTimeDateLabel'     => 'VIP Until',
