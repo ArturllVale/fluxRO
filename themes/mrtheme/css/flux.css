@@ -79,10 +79,10 @@ input[type="text"],
 input[type="password"],
 input[type="file"],
 textarea {
-		font-family: "Roboto", serif;
+	font-family: "Roboto", serif;
     padding: 4px;
-    font-size: 10pt;
-    color: #444;
+    font-size: 11pt;
+    color: #252525;
     border: 1px solid #ddd;
     outline-width: 0;
 }
