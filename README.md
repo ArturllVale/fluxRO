@@ -1,4 +1,4 @@
-FluxCP
+FluxRO criado com FluxCP
 ======
 
 Flux Control Panel (FluxCP) for rAthena servers.
