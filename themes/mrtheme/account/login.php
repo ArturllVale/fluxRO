@@ -1,7 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 <div class="container">
     <div class="row justify-content-center">
-        <img src="/themes/mrtheme/img/classes-overall.png" alt="">
+        <img src="/themes/mrtheme/img/classes-overall.png" alt="" style="opacity: 0.5;">
         <div class="col-md-6">
             <div class="card mt-custom">
                 <div class="card-body">
