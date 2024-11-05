@@ -2738,5 +2738,11 @@ body {
 }
 
 .mt-custom {
-    margin-top: -13rem !important;
+    margin-top: -15rem !important;
+    max-width: 485px;
+    text-align: justify;
+}
+
+.text-center {
+    text-align: -webkit-center;
 }
