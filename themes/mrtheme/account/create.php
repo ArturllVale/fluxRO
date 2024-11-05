@@ -72,7 +72,7 @@
                 <div><?php echo $this->dateField('birthdate', null, 0) ?></div>
             </div>
 			<div class="col-md-6 mb-3">
-				<img src="/themes/mrtheme/img/.png" alt="Imagem Direita" srcset="">
+				<img src="/themes/mrtheme/img/esquerda.png" alt="Imagem Direita" srcset="">
 			</div>
 
             <?php if (Flux::config('UseCaptcha')): ?>
