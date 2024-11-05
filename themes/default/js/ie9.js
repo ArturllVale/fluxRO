@@ -2637,7 +2637,7 @@ var cssQuery = (function() {
       id:              /#(<#ident>)/,
       'class':         /\.(<#ident>)/,
       pseudo:          /\:([\w-]+)(?:\(([^)]+)\))?/,
-      attr:            /\[(<#ident>)(?:(<#operator>)((?:\\.|[^\[\]#.:])+))?\]/,
+      attr:            /\[(?<ident>[a-zA-Z_][\w-]*)\s*(?<operator>[~*^$|]?)=\s*("[^"\\]*(?:\\.[^"\\]*)*"|'[^'\\]*(?:\\.[^'\\]*)*'|[^\\\]]+)\]/,
       negation:        /:not\((<#tag>|<#id>|<#class>|<#attr>|<#pseudo>)\)/,
       sequence:        /(\\.|[~*]=|\+\d|\+?\d*n\s*\+\s*\d|[^\s>+~,\*])+/,
       filter:          /[#.:\[]<#sequence>/,
