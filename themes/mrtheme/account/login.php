@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
         <img src="/themes/mrtheme/img/classes-overall.png" alt="">
         <div class="col-md-6">
-            <div class="card mt-5">
+            <div class="card mt-custom">
                 <div class="card-body">
                     <h2 class="card-title"><?php echo htmlspecialchars(Flux::message('LoginHeading')) ?></h2>
                     <?php if (isset($errorMessage)): ?>

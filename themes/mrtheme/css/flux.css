@@ -2737,6 +2737,6 @@ body {
 	background: linear-gradient(135deg, #6bdbc5, #1abc9c) !important;
 }
 
-.mt-5 {
+.mt-custom {
     margin-top: -13rem !important;
 }
