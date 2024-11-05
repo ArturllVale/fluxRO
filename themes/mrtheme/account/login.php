@@ -1,6 +1,7 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
 <div class="container">
     <div class="row justify-content-center">
+        <img src="/themes/mrtheme/img/gde_regras_bg.png" alt="">
         <div class="col-md-6">
             <div class="card mt-5">
                 <div class="card-body">
