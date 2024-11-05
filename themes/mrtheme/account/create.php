@@ -8,7 +8,7 @@
         <p><strong>Note:</strong> You will need to provide a working e-mail address to confirm your account before you can log-in.</p>
     <?php endif ?>
 
-    <p><strong>Note:</strong> <?php echo sprintf("Your password must be between %d and %d characters.", Flux::config('MinPasswordLength'), Flux::config('MaxPasswordLength')) ?></p>
+    <p><strong>Note:</strong> <?php echo sprintf("Sua senha deve conter entre %d e %d caracteres.", Flux::config('MinPasswordLength'), Flux::config('MaxPasswordLength')) ?></p>
 
     <?php if (Flux::config('PasswordMinUpper') > 0): ?>
         <p><strong>Note:</strong> <?php echo sprintf(Flux::message('PasswordNeedUpper'), Flux::config('PasswordMinUpper')) ?></p>
@@ -72,8 +72,7 @@
                 <div><?php echo $this->dateField('birthdate', null, 0) ?></div>
             </div>
 			<div class="col-md-6 mb-3">
-				<h2>O que pode por aqui?</h2>
-				<p>Uma imagem?</p>
+				<img src="../img/esquerda.png" alt="Imagem Direita" srcset="">
 			</div>
 
             <?php if (Flux::config('UseCaptcha')): ?>
