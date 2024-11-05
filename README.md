@@ -1,4 +1,5 @@
 [![CodeQL Advanced](https://github.com/ArturllVale/fluxRO/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/ArturllVale/fluxRO/actions/workflows/codeql.yml)
+-
 FluxRO criado com FluxCP
 ======
 
